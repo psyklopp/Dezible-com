@@ -8,4 +8,4 @@ Easier said than done but this is a start. I am also interested in Quantum and P
 
 Let's see how this goes.
 
-(Homepage - Dezible)[https://www.dezible.com/]
+[Homepage - Dezible](https://www.dezible.com/)
