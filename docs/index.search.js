@@ -14,13 +14,6 @@ var relearn_search_index = [
     "uri": "/second/index.html"
   },
   {
-    "content": "Easy to understand, High-quality articles on getting started with Cybersecurity Under construction\n",
-    "description": "",
-    "tags": null,
-    "title": "Dezible",
-    "uri": "/index.html"
-  },
-  {
     "content": "There we go!\n",
     "description": "",
     "tags": null,
@@ -33,6 +26,13 @@ var relearn_search_index = [
     "tags": null,
     "title": "Second Content",
     "uri": "/second/second-content/index.html"
+  },
+  {
+    "content": "Easy to understand, High-quality articles on getting started with Cybersecurity Under construction\n",
+    "description": "",
+    "tags": null,
+    "title": "Welcome",
+    "uri": "/index.html"
   },
   {
     "content": "There you go\n",
