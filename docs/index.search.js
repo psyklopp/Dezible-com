@@ -7,18 +7,53 @@ var relearn_search_index = [
     "uri": "/basics/index.html"
   },
   {
-    "content": "",
+    "content": "Lorem Ipsum.\n",
     "description": "",
     "tags": null,
-    "title": "Categories",
-    "uri": "/categories/index.html"
+    "title": "Second",
+    "uri": "/second/index.html"
   },
   {
     "content": "",
     "description": "",
     "tags": null,
-    "title": "My New Hugo Site",
+    "title": "Dezible",
     "uri": "/index.html"
+  },
+  {
+    "content": "There we go!\n",
+    "description": "",
+    "tags": null,
+    "title": "Second Content",
+    "uri": "/basics/second-content/index.html"
+  },
+  {
+    "content": "There we go!\n",
+    "description": "",
+    "tags": null,
+    "title": "Second Content",
+    "uri": "/second/second-content/index.html"
+  },
+  {
+    "content": "There you go\n",
+    "description": "",
+    "tags": null,
+    "title": "First Content",
+    "uri": "/basics/first-content/index.html"
+  },
+  {
+    "content": "There you go\n",
+    "description": "",
+    "tags": null,
+    "title": "First Content",
+    "uri": "/second/first-content/index.html"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Categories",
+    "uri": "/categories/index.html"
   },
   {
     "content": "",
