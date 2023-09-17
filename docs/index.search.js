@@ -14,7 +14,7 @@ var relearn_search_index = [
     "uri": "/second/index.html"
   },
   {
-    "content": "",
+    "content": "Easy to understand, High-quality articles on getting started with Cybersecurity Under construction\n",
     "description": "",
     "tags": null,
     "title": "Dezible",
