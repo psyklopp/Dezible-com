@@ -6,7 +6,8 @@
     <meta name="generator" content="Hugo 0.118.2">
     <meta name="generator" content="Relearn 5.20.0+tip">
     <meta name="description" content="">
-    <title>First Content - Dezible</title><link rel="icon" href="https://raw.githubusercontent.com/psyklopp/Dezible-com/main/images/dezible_favicon.png" type="image/png">
+    <title>Digital Signatures - Dezible</title>
+    <link href="/digital-signatures/index.xml" rel="alternate" type="application/rss+xml" title="Digital Signatures - Dezible"><link rel="icon" href="https://raw.githubusercontent.com/psyklopp/Dezible-com/main/images/dezible_favicon.png" type="image/png">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
     <link href="/css/fontawesome-all.min.css?1710361915" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1710361915" rel="stylesheet"></noscript>
     <link href="/css/nucleus.css?1710361915" rel="stylesheet">
@@ -38,38 +39,81 @@
       window.variants && variants.init( [ 'dezible' ] );
     </script>
   </head>
-  <body class="mobile-support html" data-url="/basics/first-content/index.html">
+  <body class="mobile-support html" data-url="/digital-signatures/index.html">
     <div id="body" class="default-animation">
       <div id="sidebar-overlay"></div>
       <div id="toc-overlay"></div>
       <nav id="topbar" class="highlightable">
         <div>
           <div class="navigation">
-            <a class="nav nav-next topbar-link" href="/digital-signatures/index.html" title="Digital Signatures (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+            <a class="nav nav-next topbar-link" href="/digital-signatures/second-content/index.html" title="Second Content (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
           </div>
           <div class="navigation">
-            <a class="nav nav-prev topbar-link" href="/basics/second-content/index.html" title="Second Content (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+            <a class="nav nav-prev topbar-link" href="/basics/first-content/index.html" title="First Content (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
           </div>
           <div id="breadcrumbs">
             <span id="sidebar-toggle-span">
               <a href="#" id="sidebar-toggle" class="topbar-link" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
             </span>
+            <span id="toc-menu" title='Table of Contents (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
             <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
               <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Dezible</span></a><meta itemprop="position" content="1"> &gt; </li>
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/basics/index.html"><span itemprop="name">Basics</span></a><meta itemprop="position" content="2"> &gt; </li>
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">First Content</span><meta itemprop="position" content="3"></li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Digital Signatures</span><meta itemprop="position" content="2"></li>
             </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="toc-wrapper"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#a-brief-history">A brief history</a>
+      <ul>
+        <li><a href="#other-references">Other references</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+            </div>
           </div>
         </div>
       </nav>
-      <main id="body-inner" class="highlightable default" tabindex="-1">
+      <main id="body-inner" class="highlightable chapter narrow" tabindex="-1">
         <div class="flex-block-wrapper">
-          <article class="default">
+          <article class="chapter">
             <header class="headline">
             </header>
-<h1 id="first-content">First Content</h1>
+<div class="article-subheading">Chapter 2</div>
+<h1 id="digital-signatures">Digital Signatures</h1>
 
-<p>There you go</p>
+<h2 id="a-brief-history">A brief history</h2>
+<p>Until the mid-1970s, all cipher systems used symmetric cryptography. In this system, a single key is used to encrypt and decrypt the data and this secret key must be known to both sender and receiver. While this fast and efficient, for n parties, this involves n(n-1) keys to be distributed. If an eavesdropper intercepts the key using transmission, they can decrypt the messages which brings us to the issue of authentication and trust between the communicating parties.</p>
+<p>In 1976, Whitfield Diffie and Martin Hellman introduced the concept of public key cryptography in their landmark paper &ldquo;New Directions in Cryptography,&rdquo; <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. (they were influenced by Merkle&rsquo;s work <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> who discussed about secure transmission of keys in insecure channel but was not practical). They proposed the idea of a private key and a corresponding public key which allows the parties to establish a shared secret-key over insecure channel; this is known as the Diffie-Hellman key exchange. Along with asymmetric key cryptography, Diffie and Hellman also first described the notion of digital signature scheme.</p>
+<p>Like paper-based signatures, digital signatures could provide two guarantees:</p>
+<ol>
+<li>
+<p>Authentication, that a message came from the right person</p>
+</li>
+<li>
+<p>Non-repudiation, that a signer of a message cannot deny and claim they didn&rsquo;t sign it.</p>
+</li>
+</ol>
+<p>Diffie and Hellman had conjectured that such schemes use one-way functions but it was still unknown whether such functions exist. It was in 1978 when Rivest, Shamir and Adleman gave the construction of first digital signature scheme which was based on the RSA public-key cryptosystem<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. It&rsquo;s security lies in the extreme difficulty of factoring large integers and the modular exponentiation function works as the one-way function.</p>
+<h3 id="other-references">Other references</h3>
+<ul>
+<li>Cryptography: The InfoSec Handbook : <a href="https://link.springer.com/chapter/10.1007/978-1-4302-6383-8_8" target="_blank">https://link.springer.com/chapter/10.1007/978-1-4302-6383-8_8</a></li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>New Directions in Cryptography, Whitfield Diffie and Martin Hellman, <a href="https://www-ee.stanford.edu/~hellman/publications/24.pdf" target="_blank">https://www-ee.stanford.edu/~hellman/publications/24.pdf</a> - 1976&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Secure Communications Over Insecure Channels, Ralph C. Merkle, <a href="https://www.ralphmerkle.com/1974/PuzzlesAsPublished.pdf" target="_blank">https://www.ralphmerkle.com/1974/PuzzlesAsPublished.pdf</a> - 1974&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>A Method for Obtaining Digital Signatures and Public-Key Cryptosystems, R.L. Rivest, A. Shamir, and L. Adleman, <a href="https://web.williams.edu/Mathematics/lg5/302/RSA.pdf" target="_blank">https://web.williams.edu/Mathematics/lg5/302/RSA.pdf</a> - 1978&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 
             <footer class="footline">
 
@@ -106,10 +150,10 @@
       <div id="content-wrapper" class="highlightable">
         <div id="topics">
           <ul class="enlarge morespace collapsible-menu">
-          <li data-nav-id="/basics/index.html" class="parent "><input type="checkbox" id="section-60af16e5b650a648ddc653a31603b74e" aria-controls="subsections-60af16e5b650a648ddc653a31603b74e" checked><label for="section-60af16e5b650a648ddc653a31603b74e"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Basics</span></label><a class="padding" href="/basics/index.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">1.</b> Basics</a><ul id="subsections-60af16e5b650a648ddc653a31603b74e" class="morespace collapsible-menu">
+          <li data-nav-id="/basics/index.html" class=""><input type="checkbox" id="section-60af16e5b650a648ddc653a31603b74e" aria-controls="subsections-60af16e5b650a648ddc653a31603b74e"><label for="section-60af16e5b650a648ddc653a31603b74e"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Basics</span></label><a class="padding" href="/basics/index.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">1.</b> Basics</a><ul id="subsections-60af16e5b650a648ddc653a31603b74e" class="morespace collapsible-menu">
           <li data-nav-id="/basics/second-content/index.html" class=""><a class="padding" href="/basics/second-content/index.html">Second Content</a></li>
-          <li data-nav-id="/basics/first-content/index.html" class="active"><a class="padding" href="/basics/first-content/index.html">First Content</a></li></ul></li>
-          <li data-nav-id="/digital-signatures/index.html" class=""><input type="checkbox" id="section-af8cbec853164fc9443f35ebc7f6384e" aria-controls="subsections-af8cbec853164fc9443f35ebc7f6384e"><label for="section-af8cbec853164fc9443f35ebc7f6384e"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Digital Signatures</span></label><a class="padding" href="/digital-signatures/index.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">2.</b> Digital Signatures</a><ul id="subsections-af8cbec853164fc9443f35ebc7f6384e" class="morespace collapsible-menu">
+          <li data-nav-id="/basics/first-content/index.html" class=""><a class="padding" href="/basics/first-content/index.html">First Content</a></li></ul></li>
+          <li data-nav-id="/digital-signatures/index.html" class="active parent "><input type="checkbox" id="section-af8cbec853164fc9443f35ebc7f6384e" aria-controls="subsections-af8cbec853164fc9443f35ebc7f6384e" checked><label for="section-af8cbec853164fc9443f35ebc7f6384e"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Digital Signatures</span></label><a class="padding" href="/digital-signatures/index.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">2.</b> Digital Signatures</a><ul id="subsections-af8cbec853164fc9443f35ebc7f6384e" class="morespace collapsible-menu">
           <li data-nav-id="/digital-signatures/second-content/index.html" class=""><a class="padding" href="/digital-signatures/second-content/index.html">Second Content</a></li>
           <li data-nav-id="/digital-signatures/first-content/index.html" class=""><a class="padding" href="/digital-signatures/first-content/index.html">First Content</a></li></ul></li>
           <li data-nav-id="/blind-signatures/index.html" class=""><input type="checkbox" id="section-2154a3db78d52528d00bbdb036019860" aria-controls="subsections-2154a3db78d52528d00bbdb036019860"><label for="section-2154a3db78d52528d00bbdb036019860"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Blind Signatures</span></label><a class="padding" href="/blind-signatures/index.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">3.</b> Blind Signatures</a><ul id="subsections-2154a3db78d52528d00bbdb036019860" class="morespace collapsible-menu">

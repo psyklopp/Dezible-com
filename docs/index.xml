@@ -15,11 +15,19 @@
       <description>Lorem Ipsum.</description>
     </item>
     <item>
-      <title>Second</title>
-      <link>https://dezible.com/second/index.html</link>
+      <title>Digital Signatures</title>
+      <link>https://dezible.com/digital-signatures/index.html</link>
       <pubDate>Thu, 31 Aug 2023 19:34:36 +0200</pubDate>
-      <guid>https://dezible.com/second/index.html</guid>
-      <description>Lorem Ipsum.</description>
+      <guid>https://dezible.com/digital-signatures/index.html</guid>
+      <description>A brief history Until the mid-1970s, all cipher systems used symmetric cryptography. In this system, a single key is used to encrypt and decrypt the data and this secret key must be known to both sender and receiver. While this fast and efficient, for n parties, this involves n(n-1) keys to be distributed. If an eavesdropper intercepts the key using transmission, they can decrypt the messages which brings us to the issue of authentication and trust between the communicating parties.</description>
+    </item>
+    <item>
+      <title>Blind Signatures</title>
+      <link>https://dezible.com/blind-signatures/index.html</link>
+      <pubDate>Thu, 31 Aug 2023 19:34:36 +0200</pubDate>
+      <guid>https://dezible.com/blind-signatures/index.html</guid>
+      <description>Blind signatures are an extension of digital signatures, which allows a user to obtain a signature on a message without revealing the contents of the message to the signer.
+A good analogy to blind signatures is anonymous voting. A voter who wants to cast a valid vote in an envelope, wants a signature from the official election authority. The officials can verify the credentials of the voters and sign the envelope containing the vote, without learning the contents.</description>
     </item>
   </channel>
 </rss>

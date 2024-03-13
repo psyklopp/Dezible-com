@@ -1,4 +1,5 @@
 +++
+archetype = "home"
 title = "Dezible"
 +++
 

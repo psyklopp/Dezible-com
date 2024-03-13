@@ -17,3 +17,4 @@ home = [ "HTML", "RSS", "SEARCH"]
     titleSeparator = "-"
     themeVariant = "dezible"
     disableLandingPageButton = true
+    disableBreadcrumb = false

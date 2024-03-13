@@ -7,11 +7,18 @@ var relearn_search_index = [
     "uri": "/basics/index.html"
   },
   {
-    "content": "Lorem Ipsum.\n",
+    "content": "A brief history Until the mid-1970s, all cipher systems used symmetric cryptography. In this system, a single key is used to encrypt and decrypt the data and this secret key must be known to both sender and receiver. While this fast and efficient, for n parties, this involves n(n-1) keys to be distributed. If an eavesdropper intercepts the key using transmission, they can decrypt the messages which brings us to the issue of authentication and trust between the communicating parties.\nIn 1976, Whitfield Diffie and Martin Hellman introduced the concept of public key cryptography in their landmark paper “New Directions in Cryptography,” 1. (they were influenced by Merkle’s work 2 who discussed about secure transmission of keys in insecure channel but was not practical). They proposed the idea of a private key and a corresponding public key which allows the parties to establish a shared secret-key over insecure channel; this is known as the Diffie-Hellman key exchange. Along with asymmetric key cryptography, Diffie and Hellman also first described the notion of digital signature scheme.\nLike paper-based signatures, digital signatures could provide two guarantees:\nAuthentication, that a message came from the right person\nNon-repudiation, that a signer of a message cannot deny and claim they didn’t sign it.\nDiffie and Hellman had conjectured that such schemes use one-way functions but it was still unknown whether such functions exist. It was in 1978 when Rivest, Shamir and Adleman gave the construction of first digital signature scheme which was based on the RSA public-key cryptosystem3. It’s security lies in the extreme difficulty of factoring large integers and the modular exponentiation function works as the one-way function.\nOther references Cryptography: The InfoSec Handbook : https://link.springer.com/chapter/10.1007/978-1-4302-6383-8_8 New Directions in Cryptography, Whitfield Diffie and Martin Hellman, https://www-ee.stanford.edu/~hellman/publications/24.pdf - 1976 ↩︎\nSecure Communications Over Insecure Channels, Ralph C. Merkle, https://www.ralphmerkle.com/1974/PuzzlesAsPublished.pdf - 1974 ↩︎\nA Method for Obtaining Digital Signatures and Public-Key Cryptosystems, R.L. Rivest, A. Shamir, and L. Adleman, https://web.williams.edu/Mathematics/lg5/302/RSA.pdf - 1978 ↩︎\n",
     "description": "",
     "tags": null,
-    "title": "Second",
-    "uri": "/second/index.html"
+    "title": "Digital Signatures",
+    "uri": "/digital-signatures/index.html"
+  },
+  {
+    "content": "Blind signatures are an extension of digital signatures, which allows a user to obtain a signature on a message without revealing the contents of the message to the signer.\nA good analogy to blind signatures is anonymous voting. A voter who wants to cast a valid vote in an envelope, wants a signature from the official election authority. The officials can verify the credentials of the voters and sign the envelope containing the vote, without learning the contents. This ensures the integrity of the vote, and authorities learn nothing about the voters’ selection.\nThe idea of blind signatures was introduced by David Chaum in his paper 1 which was based on the RSA signature scheme.\nD. L. Chaum, Blind Signatures for Untraceable Payments, Jan. 1983, doi: 10.1007/978-1-4757-0602-4_18, https://bitcoin-class.org/readings/Chaum-blind-signatures.PDF ↩︎\n",
+    "description": "",
+    "tags": null,
+    "title": "Blind Signatures",
+    "uri": "/blind-signatures/index.html"
   },
   {
     "content": "Welcome Easy to understand, High-quality articles on getting started with Cybersecurity Under construction\n",
@@ -32,7 +39,14 @@ var relearn_search_index = [
     "description": "",
     "tags": null,
     "title": "Second Content",
-    "uri": "/second/second-content/index.html"
+    "uri": "/blind-signatures/second-content/index.html"
+  },
+  {
+    "content": "There we go!\n",
+    "description": "",
+    "tags": null,
+    "title": "Second Content",
+    "uri": "/digital-signatures/second-content/index.html"
   },
   {
     "content": "There you go\n",
@@ -46,7 +60,14 @@ var relearn_search_index = [
     "description": "",
     "tags": null,
     "title": "First Content",
-    "uri": "/second/first-content/index.html"
+    "uri": "/blind-signatures/first-content/index.html"
+  },
+  {
+    "content": "There you go\n",
+    "description": "",
+    "tags": null,
+    "title": "First Content",
+    "uri": "/digital-signatures/first-content/index.html"
   },
   {
     "content": "",
