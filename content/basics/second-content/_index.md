@@ -1,7 +1,8 @@
 ---
-title: "Second Content"
-date: 2023-08-31T19:34:36+02:00
+title: "Mathematics"
+date: 2024-03-13T19:34:24+02:00
 draft: false
+weight: 2
 ---
 
 There we go!

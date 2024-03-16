@@ -6,20 +6,25 @@
     <description>Recent content in Basics on Dezible</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Aug 2023 19:34:36 +0200</lastBuildDate><atom:link href="https://dezible.com/basics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Mar 2024 19:34:24 +0200</lastBuildDate><atom:link href="https://dezible.com/basics/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Second Content</title>
-      <link>https://dezible.com/basics/second-content/index.html</link>
-      <pubDate>Thu, 31 Aug 2023 19:34:36 +0200</pubDate>
-      <guid>https://dezible.com/basics/second-content/index.html</guid>
-      <description>There we go!</description>
+      <title>Cryptography</title>
+      <link>https://dezible.com/basics/first-content/index.html</link>
+      <pubDate>Wed, 13 Mar 2024 19:34:24 +0200</pubDate>
+      <guid>https://dezible.com/basics/first-content/index.html</guid>
+      <description>Ques: What is the meaning of Probabilistic Polynomial Time (PPT) adversary or algorithm?
+Ans: https://crypto.stackexchange.com/questions/62976/what-is-the-meaning-of-probabilistic-polynomial-time-adversary
+Ques: What is the ROM (random oracle method)?
+Ans: https://crypto.stackexchange.com/questions/879/what-is-the-random-oracle-model-and-why-is-it-controversial
+Ques: What is the difference between ROM (Random Oracle Method) and SM (Standard Model)?
+Ans: https://crypto.stackexchange.com/questions/43668/random-oracle-model-vs-standard-model-vs-selective-model</description>
     </item>
     <item>
-      <title>First Content</title>
-      <link>https://dezible.com/basics/first-content/index.html</link>
-      <pubDate>Thu, 31 Aug 2023 19:34:24 +0200</pubDate>
-      <guid>https://dezible.com/basics/first-content/index.html</guid>
-      <description>There you go</description>
+      <title>Mathematics</title>
+      <link>https://dezible.com/basics/second-content/index.html</link>
+      <pubDate>Wed, 13 Mar 2024 19:34:24 +0200</pubDate>
+      <guid>https://dezible.com/basics/second-content/index.html</guid>
+      <description>There we go!</description>
     </item>
   </channel>
 </rss>

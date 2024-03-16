@@ -6,25 +6,26 @@
     <description>Recent content on Dezible</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Aug 2023 19:34:36 +0200</lastBuildDate><atom:link href="https://dezible.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Mar 2024 19:34:24 +0200</lastBuildDate><atom:link href="https://dezible.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basics</title>
       <link>https://dezible.com/basics/index.html</link>
-      <pubDate>Thu, 31 Aug 2023 19:34:36 +0200</pubDate>
+      <pubDate>Wed, 13 Mar 2024 19:34:24 +0200</pubDate>
       <guid>https://dezible.com/basics/index.html</guid>
-      <description>Lorem Ipsum.</description>
+      <description>One of the common issues while learning cryptography is the extensive use of notations, abbbreviations and terms which we might not be familiar with. I will curate a list of such questions which anyone can refer to.
+This section will focus mainly on the concepts broadly categorized into mathematics and cryptography.</description>
     </item>
     <item>
       <title>Digital Signatures</title>
       <link>https://dezible.com/digital-signatures/index.html</link>
-      <pubDate>Thu, 31 Aug 2023 19:34:36 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dezible.com/digital-signatures/index.html</guid>
       <description>A brief history Until the mid-1970s, all cipher systems used symmetric cryptography. In this system, a single key is used to encrypt and decrypt the data and this secret key must be known to both sender and receiver. While this fast and efficient, for n parties, this involves n(n-1) keys to be distributed. If an eavesdropper intercepts the key using transmission, they can decrypt the messages which brings us to the issue of authentication and trust between the communicating parties.</description>
     </item>
     <item>
       <title>Blind Signatures</title>
       <link>https://dezible.com/blind-signatures/index.html</link>
-      <pubDate>Thu, 31 Aug 2023 19:34:36 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dezible.com/blind-signatures/index.html</guid>
       <description>Blind signatures are an extension of digital signatures, which allows a user to obtain a signature on a message without revealing the contents of the message to the signer.
 A good analogy to blind signatures is anonymous voting. A voter who wants to cast a valid vote in an envelope, wants a signature from the official election authority. The officials can verify the credentials of the voters and sign the envelope containing the vote, without learning the contents.</description>
