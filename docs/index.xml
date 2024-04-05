@@ -6,11 +6,11 @@
     <description>Recent content on Dezible</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Mar 2024 19:34:24 +0200</lastBuildDate><atom:link href="https://dezible.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Apr 2024 19:34:24 +0200</lastBuildDate><atom:link href="https://dezible.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basics</title>
       <link>https://dezible.com/basics/index.html</link>
-      <pubDate>Wed, 13 Mar 2024 19:34:24 +0200</pubDate>
+      <pubDate>Thu, 04 Apr 2024 19:34:24 +0200</pubDate>
       <guid>https://dezible.com/basics/index.html</guid>
       <description>One of the common issues while learning cryptography is the extensive use of notations, abbbreviations and terms which we might not be familiar with. I will curate a list of such questions which anyone can refer to.
 This section will focus mainly on the concepts broadly categorized into mathematics and cryptography.</description>

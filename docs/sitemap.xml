@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://dezible.com/basics/index.html</loc>
-    <lastmod>2024-03-13T19:34:24+02:00</lastmod>
+    <lastmod>2024-04-04T19:34:24+02:00</lastmod>
   </url>
   <url>
     <loc>https://dezible.com/basics/first-content/index.html</loc>
@@ -16,11 +16,15 @@
     <loc>https://dezible.com/digital-signatures/index.html</loc>
   </url>
   <url>
+    <loc>https://dezible.com/basics/third-content/index.html</loc>
+    <lastmod>2024-04-04T19:34:24+02:00</lastmod>
+  </url>
+  <url>
     <loc>https://dezible.com/blind-signatures/index.html</loc>
   </url>
   <url>
     <loc>https://dezible.com/index.html</loc>
-    <lastmod>2024-03-13T19:34:24+02:00</lastmod>
+    <lastmod>2024-04-04T19:34:24+02:00</lastmod>
   </url>
   <url>
     <loc>https://dezible.com/categories/index.html</loc>
