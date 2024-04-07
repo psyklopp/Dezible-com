@@ -28,7 +28,7 @@ var relearn_search_index = [
     "uri": "/digital-signatures/index.html"
   },
   {
-    "content": "Ques: Why is globbing not working with asterisk in Kali Linux?\nAns: Using setopt nullglob ",
+    "content": "Ques: Why is globbing not working with asterisk in Kali Linux?\nAns: You can try using the setopt nullglob command to enable the globbing. You can refer to the screenshot below.\nExpand me…\r",
     "description": "",
     "tags": null,
     "title": "Linux",

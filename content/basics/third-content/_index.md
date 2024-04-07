@@ -7,8 +7,8 @@ weight: 3
 
 **Ques**: Why is globbing not working with asterisk in Kali Linux?
 
-**Ans**: You can try using the `setopt nullglob` command to enable the globbing. You can refer to the screenshot below
+**Ans**: You can try using the `setopt nullglob` command to enable the globbing. You can refer to the screenshot below.
 
-{{< figure src="https://raw.githubusercontent.com/psyklopp/Dezible-com/main/images/1_Globbing_in_Kali_Linux.png" >}}
+{{% expand %}} ![Spock](https://raw.githubusercontent.com/psyklopp/Dezible-com/main/images/1_Globbing_in_Kali_Linux.png) {{% /expand %}} 
 
 
