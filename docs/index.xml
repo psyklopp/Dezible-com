@@ -8,20 +8,21 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 04 Apr 2024 19:34:24 +0200</lastBuildDate><atom:link href="https://dezible.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Basics</title>
-      <link>https://dezible.com/basics/index.html</link>
-      <pubDate>Thu, 04 Apr 2024 19:34:24 +0200</pubDate>
-      <guid>https://dezible.com/basics/index.html</guid>
-      <description>One of the common issues while learning cryptography is the extensive use of notations, abbbreviations and terms which we might not be familiar with. I will curate a list of such questions which anyone can refer to.
-This section will focus mainly on the concepts broadly categorized into mathematics and cryptography.</description>
+      <title>Start here</title>
+      <link>https://dezible.com/start-here/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dezible.com/start-here/index.html</guid>
+      <description>All the sections on the left-hand side contain material related to that particular certification/course.</description>
     </item>
     <item>
-      <title>Blind Signatures</title>
-      <link>https://dezible.com/blind-signatures/index.html</link>
-      <pubDate>Thu, 31 Aug 2023 19:34:36 +0200</pubDate>
-      <guid>https://dezible.com/blind-signatures/index.html</guid>
-      <description>Blind signatures are an extension of digital signatures, which allows a user to obtain a signature on a message without revealing the contents of the message to the signer.
-A good analogy to blind signatures is anonymous voting. A voter who wants to cast a valid vote in an envelope, wants a signature from the official election authority. The officials can verify the credentials of the voters and sign the envelope containing the vote, without learning the contents.</description>
+      <title>Security Blue Team Level 1</title>
+      <link>https://dezible.com/security-blue-team-level-1/index.html</link>
+      <pubDate>Thu, 04 Apr 2024 19:34:24 +0200</pubDate>
+      <guid>https://dezible.com/security-blue-team-level-1/index.html</guid>
+      <description>The Blue Team Level 1 or BTL1 certification is provided by Security Blue Team. They have stated on their website:
+BTL1 is designed to train technical defenders that are capable of defending networks and responding to cyber incidents. Below are some examples of the skills and experience you will gain.
+They have mentioned 6 broad domains which they provide training in:
+Security Fundamentals Phishing Analysis Threat Intelligence Digital Forensics SIEM Incident Response </description>
     </item>
   </channel>
 </rss>

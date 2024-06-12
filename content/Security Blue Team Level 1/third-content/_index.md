@@ -1,7 +1,7 @@
 ---
 title: "Linux"
 date: 2024-04-04T19:34:24+02:00
-draft: false
+draft: true
 weight: 3
 ---
 
