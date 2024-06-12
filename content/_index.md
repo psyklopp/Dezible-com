@@ -3,8 +3,4 @@ archetype = "home"
 title = "Dezible"
 +++
 
-# Welcome
-
-## Easy to understand, High-quality articles on getting started with Cybersecurity
-
-Under construction
+> Easy to understand, high-quality articles on getting started with cybersecurity with a focus on **blue-teaming**
