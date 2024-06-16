@@ -1,19 +1,12 @@
 ---
-title: "Cryptography"
-date: 2024-03-13T19:34:24+02:00
-draft: true
+title: "Security Fundamentals"
+date: 2024-06-13T19:34:24+02:00
+draft: false
 weight: 1
 ---
 
-**Ques**: What is the meaning of Probabilistic Polynomial Time (PPT) adversary or algorithm?
-
-**Ans**: https://crypto.stackexchange.com/questions/62976/what-is-the-meaning-of-probabilistic-polynomial-time-adversary
-
-**Ques**: What is the ROM (random oracle method)?
-
-**Ans**: https://crypto.stackexchange.com/questions/879/what-is-the-random-oracle-model-and-why-is-it-controversial
-
-**Ques**: What is the difference between ROM (Random Oracle Method) and SM (Standard Model)?
-
-**Ans**: https://crypto.stackexchange.com/questions/43668/random-oracle-model-vs-standard-model-vs-selective-model
+1. [OSI Model](https://www.nwkings.com/osi-model-in-ccna-course)
+2. [TCP/IP](https://www.fortinet.com/resources/cyberglossary/tcp-ip)
+3. [Wireshark Demo + TCP/IP + OSI Model](https://medium.com/@Praveen_Fernando/tcp-3-way-handshake-demo-with-wireshark-9dddce2d088e)
+4. [Network Security](https://www.trendmicro.com/en_us/what-is/network-security/network-security-measures.html)
 

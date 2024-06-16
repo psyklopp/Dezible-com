@@ -6,6 +6,13 @@
     <description>Recent content in Security Blue Team Level 1 on Dezible</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Apr 2024 19:34:24 +0200</lastBuildDate><atom:link href="https://dezible.com/security-blue-team-level-1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jun 2024 19:34:24 +0200</lastBuildDate><atom:link href="https://dezible.com/security-blue-team-level-1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Security Fundamentals</title>
+      <link>https://dezible.com/security-blue-team-level-1/first-content/index.html</link>
+      <pubDate>Thu, 13 Jun 2024 19:34:24 +0200</pubDate>
+      <guid>https://dezible.com/security-blue-team-level-1/first-content/index.html</guid>
+      <description> OSI Model TCP/IP Wireshark Demo + TCP/IP + OSI Model Network Security </description>
+    </item>
   </channel>
 </rss>

@@ -1,5 +1,12 @@
 var relearn_search_index = [
   {
+    "content": " OSI Model TCP/IP Wireshark Demo + TCP/IP + OSI Model Network Security ",
+    "description": "",
+    "tags": null,
+    "title": "Security Fundamentals",
+    "uri": "/security-blue-team-level-1/first-content/index.html"
+  },
+  {
     "content": "All the sections on the left-hand side contain material related to that particular certification/course.\nThe aim of this website is to create or curate articles for a specific certification. There is no dearth of good resources online, but it is preferable to study with a goal in mind.\nFor example, I will start collecting resources based on the syllabus for Security Blue Team Level 1 certification.\nThis helps me too, as I am studying for the same.\n",
     "description": "",
     "tags": null,
