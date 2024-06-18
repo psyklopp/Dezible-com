@@ -1,6 +1,6 @@
 var relearn_search_index = [
   {
-    "content": " OSI Model TCP/IP Wireshark Demo + TCP/IP + OSI Model Network Security ",
+    "content": " OSI Model TCP/IP Wireshark Demo + TCP/IP + OSI Model Network Security End-point Security How does it work?\nTypes\n",
     "description": "",
     "tags": null,
     "title": "Security Fundamentals",

@@ -9,4 +9,8 @@ weight: 1
 2. [TCP/IP](https://www.fortinet.com/resources/cyberglossary/tcp-ip)
 3. [Wireshark Demo + TCP/IP + OSI Model](https://medium.com/@Praveen_Fernando/tcp-3-way-handshake-demo-with-wireshark-9dddce2d088e)
 4. [Network Security](https://www.trendmicro.com/en_us/what-is/network-security/network-security-measures.html)
+5. {{% expand title="End-point Security" %}}
+ 1. [How does it work?](https://www.fortinet.com/resources/cyberglossary/what-is-endpoint-security)
 
+ 2. [Types](https://www.checkpoint.com/cyber-hub/threat-prevention/what-is-endpoint-detection-and-response/what-is-endpoint-security-management/types-of-endpoint-security/)
+{{% /expand %}}
