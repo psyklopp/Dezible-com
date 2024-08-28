@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dezible</title>
-    <link>https://dezible.com/index.html</link>
+    <link>http://localhost:1313/index.html</link>
     <description>There is a lot of data out there. And it is the process of analyzing data, that gives us knowledge.&#xA;Machines can churn out information from data but I believe humans (for the time being) can turn the same into knowledge with a lot more interesting insights.&#xA;Motivation I got the idea of Dezible from the word ‘decibel’. The decibel (dB) is a logarithmic unit used to measure sound level. It is also widely used in electronics, signals and communication.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://dezible.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
