@@ -3,7 +3,7 @@
   <channel>
     <title>Dezible</title>
     <link>http://localhost:1313/index.html</link>
-    <description>There is a lot of data out there. And it is the process of analyzing data, that gives us knowledge.&#xA;Machines can churn out information from data but I believe humans (for the time being) can turn the same into knowledge with a lot more interesting insights.&#xA;Motivation I got the idea of Dezible from the word ‘decibel’. The decibel (dB) is a logarithmic unit used to measure sound level. It is also widely used in electronics, signals and communication.</description>
+    <description>There is a lot of data out there. And it is the process of analyzing data, that gives us knowledge.&#xA;The image is taken from the page&#xA;Machines can churn out information from data but I believe humans (for the time being) can turn the same into knowledge with a lot more interesting insights.&#xA;Motivation I got the idea of Dezible from the word ‘decibel’. The decibel (dB) is a logarithmic unit used to measure sound level.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>

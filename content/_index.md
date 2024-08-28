@@ -5,6 +5,10 @@ title = ""
 
 There is a lot of data out there. And it is the process of analyzing data, that gives us knowledge.
 
+![Knowledge](https://raw.githubusercontent.com/psyklopp/Dezible-com/main/images/data-and-knowledge-difference.png?width=30vw)
+
+The image is taken from the [page](https://www.icar.cnr.it/en/conoscenza-e-dati/)
+
 Machines can churn out information from data but I believe humans (for the time being) can turn the same into knowledge with a lot more interesting insights.
 
 
