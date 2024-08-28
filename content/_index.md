@@ -5,7 +5,7 @@ title = ""
 
 There is a lot of data out there. And it is the process of analyzing data, that gives us knowledge.
 
-![Knowledge](https://raw.githubusercontent.com/psyklopp/Dezible-com/main/images/data-and-knowledge-difference.png?width=30vw)
+![Knowledge](https://raw.githubusercontent.com/psyklopp/Dezible-com/main/images/data-and-knowledge-difference.png?width=50vw)
 
 The image is taken from the [page](https://www.icar.cnr.it/en/conoscenza-e-dati/)
 
