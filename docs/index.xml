@@ -3,29 +3,10 @@
   <channel>
     <title>Dezible</title>
     <link>https://dezible.com/index.html</link>
-    <description>Recent content on Dezible</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>There is a lot of data out there. And it is the process of analyzing data, that gives us knowledge.&#xA;Machines can churn out information from data but I believe humans (for the time being) can turn the same into knowledge with a lot more interesting insights.&#xA;Motivation I got the idea of Dezible from the word ‘decibel’. The decibel (dB) is a logarithmic unit used to measure sound level. It is also widely used in electronics, signals and communication.</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jun 2024 19:34:24 +0200</lastBuildDate><atom:link href="https://dezible.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Start here</title>
-      <link>https://dezible.com/start-here/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dezible.com/start-here/index.html</guid>
-      <description>All the sections on the left-hand side contain material related to that particular certification/course.
-The aim of this website is to create or curate articles for a specific certification. There is no dearth of good resources online, but it is preferable to study with a goal in mind.
-For example, I will start collecting resources based on the syllabus for Security Blue Team Level 1 certification.
-This helps me too, as I am studying for the same.</description>
-    </item>
-    <item>
-      <title>Security Blue Team Level 1</title>
-      <link>https://dezible.com/security-blue-team-level-1/index.html</link>
-      <pubDate>Thu, 13 Jun 2024 19:34:24 +0200</pubDate>
-      <guid>https://dezible.com/security-blue-team-level-1/index.html</guid>
-      <description>The Blue Team Level 1 or BTL1 certification is provided by Security Blue Team. They have stated on their website:
-BTL1 is designed to train technical defenders that are capable of defending networks and responding to cyber incidents. Below are some examples of the skills and experience you will gain.
-They have mentioned 6 broad domains which they provide training in:
-Security Fundamentals Phishing Analysis Threat Intelligence Digital Forensics SIEM Incident Response </description>
-    </item>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://dezible.com/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

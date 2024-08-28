@@ -2,6 +2,7 @@
 archetype = "default"
 title = "Security Blue Team Level 1"
 weight = 2
+draft = true
 +++
 
 The Blue Team Level 1 or BTL1 certification is provided by [Security Blue Team](https://www.securityblue.team/why-btl1/). They have stated on their website:

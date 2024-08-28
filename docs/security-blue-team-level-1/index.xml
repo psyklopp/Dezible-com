@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Security Blue Team Level 1 on Dezible</title>
-    <link>https://dezible.com/security-blue-team-level-1/index.html</link>
-    <description>Recent content in Security Blue Team Level 1 on Dezible</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Security Blue Team Level 1 - Dezible</title>
+    <link>http://localhost:1313/security-blue-team-level-1/index.html</link>
+    <description>The Blue Team Level 1 or BTL1 certification is provided by Security Blue Team. They have stated on their website:&#xA;BTL1 is designed to train technical defenders that are capable of defending networks and responding to cyber incidents. Below are some examples of the skills and experience you will gain.&#xA;They have mentioned 6 broad domains which they provide training in:&#xA;Security Fundamentals Phishing Analysis Threat Intelligence Digital Forensics SIEM Incident Response</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jun 2024 19:34:24 +0200</lastBuildDate><atom:link href="https://dezible.com/security-blue-team-level-1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jun 2024 19:34:24 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/security-blue-team-level-1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Security Fundamentals</title>
-      <link>https://dezible.com/security-blue-team-level-1/first-content/index.html</link>
+      <link>http://localhost:1313/security-blue-team-level-1/first-content/index.html</link>
       <pubDate>Thu, 13 Jun 2024 19:34:24 +0200</pubDate>
-      <guid>https://dezible.com/security-blue-team-level-1/first-content/index.html</guid>
-      <description>OSI Model TCP/IP Wireshark Demo + TCP/IP + OSI Model Network Security End-point Security How does it work?
-Types</description>
+      <guid>http://localhost:1313/security-blue-team-level-1/first-content/index.html</guid>
+      <description>OSI Model TCP/IP Wireshark Demo + TCP/IP + OSI Model Network Security Expand me… Thank you! End-point Security How does it work?&#xA;Types</description>
     </item>
   </channel>
 </rss>

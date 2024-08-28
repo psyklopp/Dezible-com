@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Start here on Dezible</title>
-    <link>https://dezible.com/start-here/index.html</link>
-    <description>Recent content in Start here on Dezible</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://dezible.com/start-here/index.xml" rel="self" type="application/rss+xml" />
+    <title>Start here - Dezible</title>
+    <link>http://localhost:1313/start-here/index.html</link>
+    <description>All the sections on the left-hand side contain material related to that particular certification/course.&#xA;The aim of this website is to create or curate articles for a specific certification. There is no dearth of good resources online, but it is preferable to study with a goal in mind.&#xA;For example, I will start collecting resources based on the syllabus for Security Blue Team Level 1 certification.&#xA;This helps me too, as I am studying for the same.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/start-here/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
