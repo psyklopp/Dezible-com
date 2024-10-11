@@ -3,10 +3,17 @@
   <channel>
     <title>Dezible</title>
     <link>http://localhost:1313/index.html</link>
-    <description>There is a lot of data out there. And it is the process of analyzing data, that gives us knowledge.&#xA;The image is taken from the page&#xA;Machines can churn out information from data but I believe humans (for the time being) can turn the same into knowledge with a lot more interesting insights.&#xA;Motivation I got the idea of Dezible from the word ‘decibel’. The decibel (dB) is a logarithmic unit used to measure sound level.</description>
+    <description>Hello! My name is Aditya Bhardwaj.&#xA;I passed out in July 2024 with an MSc. degree in Cybersecurity.&#xA;I have a goal - to just stick to it. While I learned a lot of things in my studies, I didn’t focus on the real-world tools.&#xA;This is a common issue. Often termed as ‘skill gap’.&#xA;It is hard to focus - and there is lot to learn. Cybersecurity is a very broad field.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fundamentals</title>
+      <link>http://localhost:1313/fundamentals/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fundamentals/index.html</guid>
+      <description>Learn the basics - something every cybersecurity practitioner advises.&#xA;The specific categories will be created under the heading.</description>
+    </item>
   </channel>
 </rss>

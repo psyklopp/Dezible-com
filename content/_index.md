@@ -3,23 +3,37 @@ archetype = "home"
 title = ""
 +++
 
-There is a lot of data out there. And it is the process of analyzing data, that gives us knowledge.
+Hello! My name is Aditya Bhardwaj.
 
-![Knowledge](https://raw.githubusercontent.com/psyklopp/Dezible-com/main/images/data-and-knowledge-difference.png?width=50vw)
+I passed out in July 2024 with an MSc. degree in Cybersecurity.
 
-The image is taken from the [page](https://www.icar.cnr.it/en/conoscenza-e-dati/)
+#### I have a goal - *to just stick to it.*
 
-Machines can churn out information from data but I believe humans (for the time being) can turn the same into knowledge with a lot more interesting insights.
+While I learned a lot of things in my studies, I didn't focus on the real-world tools.
+
+This is a common issue. Often termed as 'skill gap'.
+
+#### It is hard to focus - *and there is lot to learn*.
+
+Cybersecurity is a very broad field. Broader than what people might imagine.
+
+There is a lot of data/information out there.
+
+It takes time to transform that to knowledge.
+
+### Sharing your learning progress can be an effective way to do it.
+
+My goal is to document and share my progress.
+
+Hopefully it helps you.
+
+### What is next ?
+
+**Refer to the left sidebar.**
+
+Soon, I will start adding content. Relevant headings and categories will be used.
+
+For now - Fundamentals.
 
 
-## Motivation
-
-I got the idea of Dezible from the word '**decibel**'. The decibel (dB) is a logarithmic unit used to measure sound level. It is also widely used in electronics, signals and communication.
-
-
-## Goal
-
-> Are you a decision maker, researcher, security professional or enthusiast?
-
-Dezible will provide insights and intelligence from the current academic research in cybersecurity. The primary way will be reports which will be published alongside relevant slides and presentations.
 

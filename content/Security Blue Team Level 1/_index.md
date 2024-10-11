@@ -1,7 +1,7 @@
 +++
 archetype = "default"
 title = "Security Blue Team Level 1"
-weight = 2
+weight = 1                                                                              
 draft = true
 +++
 

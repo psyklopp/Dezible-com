@@ -1,7 +1,7 @@
 ---
 title: "Security Fundamentals"
 date: 2024-06-13T19:34:24+02:00
-draft: false
+draft: true
 weight: 1
 ---
 

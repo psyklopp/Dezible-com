@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fundamentals - Dezible</title>
-    <link>http://localhost:1313/start-here/index.html</link>
+    <link>http://localhost:1313/fundamentals/index.html</link>
     <description>Learn the basics - something every cybersecurity practitioner advises.&#xA;The specific categories will be created under the heading.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/start-here/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/fundamentals/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
