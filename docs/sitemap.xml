@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/fundamentals/index.html</loc>
+    <loc>http://localhost:1313/basics/</loc>
     <lastmod>2024-06-13T19:34:24+02:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/fundamentals/the-beginning/index.html</loc>
+    <loc>http://localhost:1313/basics/security-concepts/</loc>
     <lastmod>2024-06-13T19:34:24+02:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/stay-connected/index.html</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-06-13T19:34:24+02:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/index.html</loc>
+    <loc>http://localhost:1313/about-me/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/index.html</loc>
+    <loc>http://localhost:1313/categories/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

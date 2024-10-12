@@ -19,6 +19,7 @@ home = [ "html", "rss", "search", 'searchpage']
     themeVariant = "dezible"
     disableLandingPageButton = true
     disableBreadcrumb = false
+    disableExplicitIndexURLs = true
 
 [markup.goldmark.renderer]
     unsafe = true

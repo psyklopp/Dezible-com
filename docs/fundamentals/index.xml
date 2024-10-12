@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fundamentals on Dezible</title>
+    <title>Fundamentals - Dezible</title>
     <link>http://localhost:1313/fundamentals/index.html</link>
-    <description>Recent content in Fundamentals on Dezible</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Learn the basics. This is something every cybersecurity practitioner swears by.</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jun 2024 19:34:24 +0200</lastBuildDate><atom:link href="http://localhost:1313/fundamentals/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jun 2024 19:34:24 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/fundamentals/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Security Concepts</title>
       <link>http://localhost:1313/fundamentals/the-beginning/index.html</link>
       <pubDate>Thu, 13 Jun 2024 19:34:24 +0200</pubDate>
       <guid>http://localhost:1313/fundamentals/the-beginning/index.html</guid>
-      <description>1. What is cybersecurity ? Cybersecurity refers to any technologies, practices and policies for preventing cyberattacks or mitigating their impact. The aim is to protect computer systems, applications, devices, data, financial assets and people against cyberthreats. 1
-IBM: What is cybersecurity? - https://www.ibm.com/topics/cybersecurity - Topics in cybersecurity&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+      <description>1. What is cybersecurity ? Cybersecurity refers to any technologies, practices and policies for preventing cyberattacks or mitigating their impact. The aim is to protect computer systems, applications, devices, data, financial assets and people against cyberthreats. 1&#xA;IBM: What is cybersecurity? - https://www.ibm.com/topics/cybersecurity - Topics in cybersecurity ↩︎</description>
     </item>
   </channel>
 </rss>

@@ -16,9 +16,8 @@ While I learned a lot of things in my studies, I didn't focus on the real-world 
 
 I want to build an open-access knowledge base for learning **Security Operation Center (SOC)** skills.
 
-#### Focus
 
 {{% notice style="accent" %}}
-:bulb: To share practical knowledge that is meaningful in real-life applications. In cybersecurity. 
+:bulb: Practical knowledge that is meaningful in real-life applications. In cybersecurity. 
 {{% /notice %}}
 
