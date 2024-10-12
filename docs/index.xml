@@ -3,17 +3,27 @@
   <channel>
     <title>Dezible</title>
     <link>http://localhost:1313/index.html</link>
-    <description>Hello! My name is Aditya Bhardwaj.&#xA;I passed out in July 2024 with an MSc. degree in Cybersecurity.&#xA;I have a goal - to just stick to it. While I learned a lot of things in my studies, I didn’t focus on the real-world tools.&#xA;This is a common issue. Often termed as ‘skill gap’.&#xA;It is hard to focus - and there is lot to learn. Cybersecurity is a very broad field.</description>
-    <generator>Hugo</generator>
+    <description>Recent content on Dezible</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jun 2024 19:34:24 +0200</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fundamentals</title>
       <link>http://localhost:1313/fundamentals/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 13 Jun 2024 19:34:24 +0200</pubDate>
       <guid>http://localhost:1313/fundamentals/index.html</guid>
-      <description>Learn the basics - something every cybersecurity practitioner advises.&#xA;The specific categories will be created under the heading.</description>
+      <description>Learn the basics. This is something every cybersecurity practitioner swears by.</description>
+    </item>
+    <item>
+      <title>Hello there!</title>
+      <link>http://localhost:1313/stay-connected/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/stay-connected/index.html</guid>
+      <description>&amp;#x1f44b; My name is Aditya Bhardwaj.
+I passed out in July 2024 with an MSc. degree in Cybersecurity. &amp;#x1f4da;
+I have a goal - to build real-life skills in cybersecurity While I learned a lot of things in my studies, I didn&amp;rsquo;t focus on the real-world tools.
+I want to build an open-access knowledge base for learning Security Operation Center (SOC) skills.
+Focus &amp;#x1f4a1; To share practical knowledge that is meaningful in real-life applications.</description>
     </item>
   </channel>
 </rss>

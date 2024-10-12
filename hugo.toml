@@ -5,6 +5,7 @@ publishDir = "docs"
 
 # Change the default theme to be use when building the site with Hugo
 theme = 'hugo-theme-relearn'
+enableEmoji = true
 
 # For search functionality
 [outputs]
@@ -18,3 +19,6 @@ home = [ "html", "rss", "search", 'searchpage']
     themeVariant = "dezible"
     disableLandingPageButton = true
     disableBreadcrumb = false
+
+[markup.goldmark.renderer]
+    unsafe = true

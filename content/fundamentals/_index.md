@@ -1,10 +1,9 @@
 +++
-archetype = "default"
+archetype = "chapter"
 title = "Fundamentals"
 weight = 1
 draft = false
 +++
 
-*Learn the basics* - something every cybersecurity practitioner advises.
+*Learn the basics*. This is something every cybersecurity practitioner swears by.
 
-The specific categories will be created under the heading.
