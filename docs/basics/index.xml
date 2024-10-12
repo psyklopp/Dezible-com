@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Basics - Dezible</title>
-    <link>http://localhost:1313/basics/</link>
+    <link>https://dezible.com/basics/</link>
     <description>Let’s get familiar with some basics first.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Jun 2024 19:34:24 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/basics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dezible.com/basics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Security Concepts</title>
-      <link>http://localhost:1313/basics/security-concepts/</link>
+      <link>https://dezible.com/basics/security-concepts/</link>
       <pubDate>Thu, 13 Jun 2024 19:34:24 +0200</pubDate>
-      <guid>http://localhost:1313/basics/security-concepts/</guid>
+      <guid>https://dezible.com/basics/security-concepts/</guid>
       <description>1. What is cybersecurity ? Cybersecurity refers to any technologies, practices and policies for preventing cyberattacks or mitigating their impact. The aim is to protect computer systems, applications, devices, data, financial assets and people against cyberthreats. 1&#xA;IBM: What is cybersecurity? - https://www.ibm.com/topics/cybersecurity - Topics in cybersecurity ↩︎</description>
     </item>
   </channel>

@@ -8,20 +8,12 @@ var relearn_search_index = [
     "uri": "/basics/"
   },
   {
-    "breadcrumb": " \u003e Basics",
+    "breadcrumb": "Basics",
     "content": "1. What is cybersecurity ? Cybersecurity refers to any technologies, practices and policies for preventing cyberattacks or mitigating their impact. The aim is to protect computer systems, applications, devices, data, financial assets and people against cyberthreats. 1\nIBM: What is cybersecurity? - https://www.ibm.com/topics/cybersecurity - Topics in cybersecurity ↩︎",
     "description": "1. What is cybersecurity ? Cybersecurity refers to any technologies, practices and policies for preventing cyberattacks or mitigating their impact. The aim is to protect computer systems, applications, devices, data, financial assets and people against cyberthreats. 1\nIBM: What is cybersecurity? - https://www.ibm.com/topics/cybersecurity - Topics in cybersecurity ↩︎",
     "tags": [],
     "title": "Security Concepts",
     "uri": "/basics/security-concepts/"
-  },
-  {
-    "breadcrumb": "",
-    "content": "It is hard to focus - and there is lot to learn. Cybersecurity is a very broad field. Broader than what people might imagine.\nThere is a lot of data/information out there. It takes time to transform that to knowledge.\nSharing your learning progress can be an effective way to do it. My goal is to document and share my progress.\nHopefully it helps you.\nWhat is next ? Soon, I will start adding content. Relevant headings and categories will be used.\nFor now - Fundamentals.",
-    "description": "It is hard to focus - and there is lot to learn. Cybersecurity is a very broad field. Broader than what people might imagine.\nThere is a lot of data/information out there. It takes time to transform that to knowledge.\nSharing your learning progress can be an effective way to do it. My goal is to document and share my progress.\nHopefully it helps you.\nWhat is next ? Soon, I will start adding content.",
-    "tags": [],
-    "title": " ",
-    "uri": "/"
   },
   {
     "breadcrumb": "",

@@ -1,6 +1,6 @@
 +++
 archetype = "home"
-title = " "
+title = ""
 +++
 
 ### It is hard to focus - *and there is lot to learn*.
