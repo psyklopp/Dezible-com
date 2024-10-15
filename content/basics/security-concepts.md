@@ -5,6 +5,8 @@ draft: false
 weight: 1
 ---
 
+## Definition and Terms
+
 {{% notice color="green" title="**1.  What is cybersecurity ?**" expanded="false" %}}
 
 Cybersecurity refers to any technologies, practices and policies for preventing cyberattacks or mitigating their impact. The aim is to protect computer systems, applications, devices, data, financial assets and people against cyberthreats. [^ibm]
@@ -50,5 +52,14 @@ Vulnerability refers to the **weakness** in an asset. For eg. a weak password on
 :crystal_ball: You lost your house and BTC because your house was in an area where tornado occurs a lot. This was a vulnerability.
 
 :black_nib: How do you track and identify vulnerabilities in cybersecurity?
+
+{{% /notice %}}
+
+{{% notice color="green" title="**4.  What is a Risk ?**" expanded="false" %}}
+
+{{% /notice %}}
+
+
+{{% notice color="green" title="**4.  What is an Exploit ?**" expanded="false" %}}
 
 {{% /notice %}}
