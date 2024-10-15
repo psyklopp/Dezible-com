@@ -34,3 +34,21 @@ You can put the NIST Cybersecurity Framework to work in your business in these f
 
 {{% /notice %}}
 
+{{% notice color="green" title="**3.  What is a Threat ?**" expanded="false" %}}
+
+Threat refers to the **danger** to an asset. Assets being anything and everything of value to you. For eg. private data, servers, application, app. Examples of threat - data breach, malware infection, targeted cyber attacks, DDoS attacks.
+
+:crystal_ball: Natural disasters also counts. Image if a tornado flew away your house and the USB drive containing your BTC.
+
+
+{{% /notice %}}
+
+{{% notice color="green" title="**4.  What is a Vulnerability ?**" expanded="false" %}}
+
+Vulnerability refers to the **weakness** in an asset. For eg. a weak password on your laptop presents a vulnerability which can potentially be exploited by a threat.
+
+:crystal_ball: You lost your house and BTC because your house was in an area where tornado occurs a lot. This was a vulnerability.
+
+:black_nib: How do you track and identify vulnerabilities in cybersecurity?
+
+{{% /notice %}}
