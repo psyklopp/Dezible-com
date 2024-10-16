@@ -20,6 +20,7 @@ home = [ "html", "rss", "search", 'searchpage']
     disableLandingPageButton = true
     disableBreadcrumb = false
     disableExplicitIndexURLs = true
+    disableInlineCopyToClipBoard=true
 
 [markup.goldmark.renderer]
     unsafe = true

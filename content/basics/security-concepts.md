@@ -40,7 +40,7 @@ You can put the NIST Cybersecurity Framework to work in your business in these f
 
 Threat refers to the **danger** to an asset. Assets being anything and everything of value to you. For eg. private data, servers, application, app. Examples of threat - data breach, malware infection, targeted cyber attacks, DDoS attacks.
 
-:crystal_ball: Natural disasters also counts. Image if a tornado flew away your house and the USB drive containing your BTC.
+:crystal_ball: Natural disasters also counts. Image if a tornado flew away your house along with the USB drive containing your BTC.
 
 
 {{% /notice %}}
@@ -49,17 +49,23 @@ Threat refers to the **danger** to an asset. Assets being anything and everythin
 
 Vulnerability refers to the **weakness** in an asset. For eg. a weak password on your laptop presents a vulnerability which can potentially be exploited by a threat.
 
-:crystal_ball: You lost your house and BTC because your house was in an area where tornado occurs a lot. This was a vulnerability.
-
 :black_nib: How do you track and identify vulnerabilities in cybersecurity?
 
 {{% /notice %}}
 
-{{% notice color="green" title="**4.  What is a Risk ?**" expanded="false" %}}
+{{% notice color="green" title="**5.  What is a Risk ?**" expanded="false" %}}
+
+Risk is the **chance/possibility/potential** for a loss when a threat occurs. It is often described by the equation[^splunk]:  
+
+`Vulnerability x Threat = Risk` 
+
+:black_nib: Use scenarios to explain risks in cybersecurity.
+
+[^splunk]: Splunk - [Vulnerabilities, Threats & Risk Explained](https://www.splunk.com/en_us/blog/learn/vulnerability-vs-threat-vs-risk.html)
 
 {{% /notice %}}
 
 
-{{% notice color="green" title="**4.  What is an Exploit ?**" expanded="false" %}}
+{{% notice color="green" title="**6.  What is an Exploit ?**" expanded="false" %}}
 
 {{% /notice %}}
