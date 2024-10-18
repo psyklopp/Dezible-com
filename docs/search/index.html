@@ -8,15 +8,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Tags - Dezible">
-    <meta property="og:url" content="http://localhost:1313/tags/">
+    <meta name="twitter:title" content="Search - Dezible">
+    <meta property="og:url" content="http://localhost:1313/search/">
     <meta property="og:site_name" content="Dezible">
-    <meta property="og:title" content="Tags - Dezible">
+    <meta property="og:title" content="Search - Dezible">
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="website">
-    <meta itemprop="name" content="Tags - Dezible">
-    <title>Tags - Dezible</title>
-    <link href="/tags/index.xml" rel="alternate" type="application/rss+xml" title="Tags - Dezible"><link rel="icon" href="https://raw.githubusercontent.com/psyklopp/Dezible-com/main/images/dezible_favicon.png" type="image/png">
+    <meta itemprop="name" content="Search - Dezible">
+    <title>Search - Dezible</title><link rel="icon" href="https://raw.githubusercontent.com/psyklopp/Dezible-com/main/images/dezible_favicon.png" type="image/png">
     <link href="/css/fontawesome-all.min.css?1729238423" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1729238423" rel="stylesheet"></noscript>
     <link href="/css/nucleus.css?1729238423" rel="stylesheet">
     <link href="/css/auto-complete.css?1729238423" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1729238423" rel="stylesheet"></noscript>
@@ -57,7 +56,7 @@
 </style>
 
   </head>
-  <body class="mobile-support html disableInlineCopyToClipboard" data-url="/tags/">
+  <body class="mobile-support html disableInlineCopyToClipboard" data-url="/search/">
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
       <nav id="R-topbar">
@@ -73,8 +72,7 @@
               </div>
             </div>
           </div>
-          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
-            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Tags</span><meta itemprop="position" content="1"></li>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList">
           </ol>
           <div class="topbar-area topbar-area-end" data-area="end">
             <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/" title="Dezible (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
@@ -93,14 +91,27 @@
         </div>
       </nav>
       <div id="R-main-overlay"></div>
-      <main id="R-body-inner" class="highlightable tags" tabindex="-1">
+      <main id="R-body-inner" class="highlightable _relearn_searchform" tabindex="-1">
         <div class="flex-block-wrapper">
-<article>
+<article class="default">
   <header class="headline">
   </header>
-<h1 id="tags">Tags</h1>
 
+<h1 id="search">Search</h1>
 
+<search>
+  <form action="javascript:triggerSearch()">
+    <div class="searchform">
+      <label class="a11y-only" for="R-search-by-detail">Search</label>
+      <input data-search-input id="R-search-by-detail" class="search-by" name="search-by" type="search" placeholder="Search..."><span class="btn cstyle interactive secondary"><button onclick="" type="submit"><i class="fa-fw fas fa-search"></i> <span class="title">Search</span></button></span>
+    </div>
+  </form>
+</search>
+<div class="searchhint">
+</div>
+<hr>
+<div id="R-searchresults">
+</div>
   <footer class="footline">
   </footer>
 </article>
@@ -157,7 +168,7 @@
                   <div class="control-style">
                     <label class="a11y-only" for="R-select-language">Language</label>
                     <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
-                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/tags/" lang="en-us" selected></option>
+                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/search/" lang="en-us" selected></option>
                     </select>
                   </div>
                   <div class="clear"></div>
