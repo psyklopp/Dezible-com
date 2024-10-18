@@ -40,7 +40,7 @@ You can put the NIST Cybersecurity Framework to work in your business in these f
 
 Threat refers to the **danger** to an asset. Assets being anything and everything of value to you. For eg. private data, servers, application, app. Examples of threat - data breach, malware infection, targeted cyber attacks, DDoS attacks.
 
-:crystal_ball: Natural disasters also counts. Image if a tornado flew away your house along with the USB drive containing your BTC.
+:crystal_ball: Natural disasters also counts. Imagine if a tornado flew away your house along with the USB drive containing your BTC.
 
 
 {{% /notice %}}
@@ -67,5 +67,13 @@ Risk is the **chance/possibility/potential** for a loss when a threat occurs. It
 
 
 {{% notice color="green" title="**6.  What is an Exploit ?**" expanded="false" %}}
+
+'To exploit' means to take advantage. Given a vulnerability, an attacker will use a method (code,technique,steps) to take advantage of such weakness. Such malicious methods are called exploits.
+
+Once the security flaw is *exploited*, the attacker might gain access to your data, system or server. At this point, maintaining access and installing other bad stuff (think of malwares, key-loggers) becomes a priority.
+
+Recommended read: [Sentinel One - What is an exploit in cybersecurity?](https://www.sentinelone.com/cybersecurity-101/threat-intelligence/what-is-an-exploit/)
+
+:black_nib: Examples of exploit. What is a zero-day (0day) exploit?
 
 {{% /notice %}}
