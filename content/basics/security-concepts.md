@@ -15,7 +15,11 @@ Cybersecurity refers to any technologies, practices and policies for preventing 
 
 {{% /notice %}}
 
-{{% notice color="blue" title="**2.  Are there any frameworks or standard guidelines ?**" expanded="false" %}}
+{{% notice style="accent" %}}
+:bulb: Cybersecurity is very broad indeed. Hence there are a lot of standard guidelines/frameworks which help companies understand their security posture and take appropriate measures. One such framrwork is NIST Cybersecurity Framework (CSF).
+{{% /notice %}}
+
+{{% notice color="blue" title="**2.  What is NIST CSF ?**" expanded="false" %}}
 
 NIST is the National Institute of Standards and Technology at the U.S. Department of Commerce. NIST Cybersecurity Framework (CSF) offers a taxonomy of highlevel cybersecurity outcomes that can be used by any organization — regardless of its size, sector, or maturity — to better understand, assess, prioritize, and communicate its cybersecurity efforts. [^csf]. 
 
