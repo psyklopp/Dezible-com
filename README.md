@@ -31,7 +31,15 @@ As of Oct 24, 2024 I enrolled in a Udemy course titled *Master Cisco CCNA 200-30
 - https://www.paloaltonetworks.com/cyberpedia/types-of-firewalls
 </details>
 
+<details>
+<summary><h3>26 Oct, 2024</h3></summary>
 
+**1. What is Ethernet?**
 
+- https://www.freecodecamp.org/news/the-complete-guide-to-the-ethernet-protocol/
 
+**2. What is the ethernet standard?**
 
+- IEEE standard 802.3
+
+</details>
