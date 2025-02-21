@@ -3,23 +3,27 @@ archetype = "home"
 title = ""
 +++
 
-### It is hard to focus - *and there is lot to learn*.
+Welcome to Dezible, where I will share my findings on the topic of `Explainable AI`
 
-Cybersecurity is a very broad field. Broader than what people might imagine.
+And who am I?
 
-There is a lot of data/information out there. It takes time to transform that to knowledge.
+And why do I want to talk about this topic?
 
-### Sharing your learning progress can be an effective way to do it.
+My name is Aditya Bhardwaj and am currently a PhD candidate at University of Twente - you can find me here through [LinkedIn profile](https://www.linkedin.com/in/ab4dev/)
 
-My goal is to document and share my progress.
+I am deeply interested in following the progress in the area of **XAI** (yes, that is the term for eXplainable AI), specially in the methods of evaluating such XAI models.
 
-Hopefully it helps you.
+### What is the goal?
 
-### What is next ?
+As I am starting to go through academic research for my PhD, I realized that there is a lack of systemized knowledge on XAI. There might a lot of resources on this topic, but are present sparsely.
 
-Soon, I will start adding content. Relevant headings and categories will be used.
+{{% notice style="accent" %}}
+The goal is to collect and organize the literature, with a focus on practical adoption of XAI and the challenges it faces. I will also focus on implementing such methods and sharing it as open-source code. 
+{{% /notice %}}
 
-For now - **Fundamentals**.
+### Next steps
+
+I will take a systematic approach where I update this site as I learn more. The aim is to share and cite the relevant research papers along with the code.
 
 
 

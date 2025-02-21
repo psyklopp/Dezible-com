@@ -2,25 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dezible</title>
-    <link>http://localhost:1313/</link>
-    <description>It is hard to focus - and there is lot to learn. Cybersecurity is a very broad field. Broader than what people might imagine.&#xA;There is a lot of data/information out there. It takes time to transform that to knowledge.&#xA;Sharing your learning progress can be an effective way to do it. My goal is to document and share my progress.&#xA;Hopefully it helps you.&#xA;What is next ? Soon, I will start adding content.</description>
+    <link>https://dezible.com/</link>
+    <description>Welcome to Dezible, where I will share my findings on the topic of Explainable AI&#xA;And who am I?&#xA;And why do I want to talk about this topic?&#xA;My name is Aditya Bhardwaj and am currently a PhD candidate at University of Twente - you can find me here through LinkedIn profile&#xA;I am deeply interested in following the progress in the area of XAI (yes, that is the term for eXplainable AI), specially in the methods of evaluating such XAI models.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Jun 2024 19:34:24 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dezible.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Basics</title>
-      <link>http://localhost:1313/basics/</link>
+      <title>Basics of XAI</title>
+      <link>https://dezible.com/basics/</link>
       <pubDate>Thu, 13 Jun 2024 19:34:24 +0200</pubDate>
-      <guid>http://localhost:1313/basics/</guid>
-      <description>Let’s get familiar with some basics first.</description>
-    </item>
-    <item>
-      <title>Hello there!</title>
-      <link>http://localhost:1313/about-me/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about-me/</guid>
-      <description>👋 My name is Aditya Bhardwaj.&#xA;I passed out in July 2024 with an MSc. degree in Cybersecurity. 📚&#xA;I have a goal - to build real-life skills in cybersecurity While I learned a lot of things in my studies, I didn’t focus on the real-world tools.&#xA;I want to build an open-access knowledge base for learning Security Operation Center (SOC) skills.&#xA;💡 Practical knowledge that is meaningful in real-life applications.</description>
+      <guid>https://dezible.com/basics/</guid>
+      <description>Details Let’s get familiar with some basics first.</description>
     </item>
   </channel>
 </rss>

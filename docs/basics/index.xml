@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Basics - Dezible</title>
-    <link>http://localhost:1313/basics/</link>
-    <description>Let’s get familiar with some basics first.</description>
+    <title>Basics of XAI - Dezible</title>
+    <link>https://dezible.com/basics/</link>
+    <description>Details Let’s get familiar with some basics first.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jun 2024 19:34:24 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/basics/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Security Concepts</title>
-      <link>http://localhost:1313/basics/security-concepts/</link>
-      <pubDate>Thu, 13 Jun 2024 19:34:24 +0200</pubDate>
-      <guid>http://localhost:1313/basics/security-concepts/</guid>
-      <description>Definition and Terms 1. What is cybersecurity ? Cybersecurity refers to any technologies, practices and policies for preventing cyberattacks or mitigating their impact. The aim is to protect computer systems, applications, devices, data, financial assets and people against cyberthreats. 1&#xA;IBM Topics in cybersecurity - https://www.ibm.com/topics/cybersecurity ↩︎&#xA;💡 Cybersecurity is very broad indeed. Hence there are a lot of standard guidelines/frameworks which help companies understand their security posture and take appropriate measures.</description>
-    </item>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://dezible.com/basics/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

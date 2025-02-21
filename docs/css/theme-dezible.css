@@ -1,6 +1,5 @@
 /* Main color scheme */
 :root {
-    --CODE-theme: relearn-light;
     /* General */
     --MAIN-font: "Public Sans"; /* Font family of main content */
     --MAIN-BG-color: #171717; /* Background color of main content */

@@ -1,64 +1,89 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.133.1">
-    <meta name="generator" content="Relearn 7.0.1+72a875f1db967152c77914cff4d53f8fcee0e619">
-    <meta name="description" content="It is hard to focus - and there is lot to learn. Cybersecurity is a very broad field. Broader than what people might imagine.
-There is a lot of data/information out there. It takes time to transform that to knowledge.
-Sharing your learning progress can be an effective way to do it. My goal is to document and share my progress.
-Hopefully it helps you.
-What is next ? Soon, I will start adding content.">
+    <meta name="generator" content="Hugo 0.144.1">
+    <meta name="generator" content="Relearn 7.4.0">
+    <meta name="description" content="Welcome to Dezible, where I will share my findings on the topic of Explainable AI
+And who am I?
+And why do I want to talk about this topic?
+My name is Aditya Bhardwaj and am currently a PhD candidate at University of Twente - you can find me here through LinkedIn profile
+I am deeply interested in following the progress in the area of XAI (yes, that is the term for eXplainable AI), specially in the methods of evaluating such XAI models.">
     <meta name="author" content="">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Dezible">
-    <meta name="twitter:description" content="It is hard to focus - and there is lot to learn. Cybersecurity is a very broad field. Broader than what people might imagine.
-There is a lot of data/information out there. It takes time to transform that to knowledge.
-Sharing your learning progress can be an effective way to do it. My goal is to document and share my progress.
-Hopefully it helps you.
-What is next ? Soon, I will start adding content.">
-    <meta property="og:url" content="http://localhost:1313/">
+    <meta name="twitter:description" content="Welcome to Dezible, where I will share my findings on the topic of Explainable AI
+And who am I?
+And why do I want to talk about this topic?
+My name is Aditya Bhardwaj and am currently a PhD candidate at University of Twente - you can find me here through LinkedIn profile
+I am deeply interested in following the progress in the area of XAI (yes, that is the term for eXplainable AI), specially in the methods of evaluating such XAI models.">
+    <meta property="og:url" content="https://dezible.com/">
     <meta property="og:site_name" content="Dezible">
     <meta property="og:title" content="Dezible">
-    <meta property="og:description" content="It is hard to focus - and there is lot to learn. Cybersecurity is a very broad field. Broader than what people might imagine.
-There is a lot of data/information out there. It takes time to transform that to knowledge.
-Sharing your learning progress can be an effective way to do it. My goal is to document and share my progress.
-Hopefully it helps you.
-What is next ? Soon, I will start adding content.">
+    <meta property="og:description" content="Welcome to Dezible, where I will share my findings on the topic of Explainable AI
+And who am I?
+And why do I want to talk about this topic?
+My name is Aditya Bhardwaj and am currently a PhD candidate at University of Twente - you can find me here through LinkedIn profile
+I am deeply interested in following the progress in the area of XAI (yes, that is the term for eXplainable AI), specially in the methods of evaluating such XAI models.">
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="website">
     <meta itemprop="name" content="Dezible">
-    <meta itemprop="description" content="It is hard to focus - and there is lot to learn. Cybersecurity is a very broad field. Broader than what people might imagine.
-There is a lot of data/information out there. It takes time to transform that to knowledge.
-Sharing your learning progress can be an effective way to do it. My goal is to document and share my progress.
-Hopefully it helps you.
-What is next ? Soon, I will start adding content.">
+    <meta itemprop="description" content="Welcome to Dezible, where I will share my findings on the topic of Explainable AI
+And who am I?
+And why do I want to talk about this topic?
+My name is Aditya Bhardwaj and am currently a PhD candidate at University of Twente - you can find me here through LinkedIn profile
+I am deeply interested in following the progress in the area of XAI (yes, that is the term for eXplainable AI), specially in the methods of evaluating such XAI models.">
     <meta itemprop="datePublished" content="2024-06-13T19:34:24+02:00">
     <meta itemprop="dateModified" content="2024-06-13T19:34:24+02:00">
-    <meta itemprop="wordCount" content="86">
+    <meta itemprop="wordCount" content="193">
     <title>Dezible</title>
     <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Dezible">
     <link href="/index.print.html" rel="alternate" type="text/html" title="Dezible"><link rel="icon" href="https://raw.githubusercontent.com/psyklopp/Dezible-com/main/images/dezible_favicon.png" type="image/png">
-    <link href="/css/fontawesome-all.min.css?1729241147" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1729241147" rel="stylesheet"></noscript>
-    <link href="/css/nucleus.css?1729241147" rel="stylesheet">
-    <link href="/css/auto-complete.css?1729241147" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1729241147" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1729241147" rel="stylesheet">
-    <link href="/css/fonts.css?1729241147" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1729241147" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1729241147" rel="stylesheet">
-    <link href="/css/theme-dezible.css?1729241147" rel="stylesheet" id="R-variant-style">
-    <link href="/css/chroma-relearn-light.css?1729241147" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/css/print.css?1729241147" rel="stylesheet" media="print">
-    <script src="/js/variant.js?1729241147"></script>
+    <link href="/css/fontawesome-all.min.css?1740153503" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1740153503" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1740153503" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1740153503" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1740153503" rel="stylesheet">
+    <link href="/css/theme.min.css?1740153503" rel="stylesheet">
+    <link href="/css/format-html.min.css?1740153503" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='.';
       window.relearn.relBaseUri='.';
-      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.absBaseUri='https:\/\/dezible.com';
+      window.relearn.min = `.min`;
       window.relearn.disableAnchorCopy=false;
       window.relearn.disableAnchorScrolling=false;
+      window.relearn.enableBlockCodeWrap=true;
+      window.relearn.disableInlineCopyToClipboard=true;
       // variant stuff
-      window.variants && variants.init( [ 'dezible' ] );
+      window.relearn.themevariants = [ 'auto' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        var select = document.querySelector("#R-select-variant");
+        if (select) {
+          select.value = variant;
+        }
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
       // translations
       window.T_Copy_to_clipboard = `Copy to clipboard`;
       window.T_Copied_to_clipboard = `Copied to clipboard!`;
@@ -75,12 +100,12 @@ What is next ? Soon, I will start adding content.">
     --MENU-WIDTH-S: 13.375rem;
     --MENU-WIDTH-M: 13.375rem;
     --MENU-WIDTH-L: 15.75rem;
-    --MAIN-WIDTH-MAX: 65.25rem;
+    --MAIN-WIDTH-MAX: 80.25rem;
 }
 </style>
 
   </head>
-  <body class="mobile-support html disableInlineCopyToClipboard" data-url="/">
+  <body class="mobile-support html" data-url="/">
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
       <nav id="R-topbar">
@@ -96,9 +121,8 @@ What is next ? Soon, I will start adding content.">
   <ul>
     <li>
       <ul>
-        <li><a href="#it-is-hard-to-focus---and-there-is-lot-to-learn">It is hard to focus - <em>and there is lot to learn</em>.</a></li>
-        <li><a href="#sharing-your-learning-progress-can-be-an-effective-way-to-do-it">Sharing your learning progress can be an effective way to do it.</a></li>
-        <li><a href="#what-is-next-">What is next ?</a></li>
+        <li><a href="#what-is-the-goal">What is the goal?</a></li>
+        <li><a href="#next-steps">Next steps</a></li>
       </ul>
     </li>
   </ul>
@@ -108,13 +132,14 @@ What is next ? Soon, I will start adding content.">
             </div>
           </div>
           <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Dezible</span><meta itemprop="position" content="1"></li>
           </ol>
           <div class="topbar-area topbar-area-end" data-area="end">
-            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/index.print.html" title="Print whole chapter (CTRL&#43;ALT&#43;p)"><i class="fa-fw fas fa-print"></i></a>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
             </div>
             <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><span class="topbar-control"><i class="fa-fw fas fa-chevron-left"></i></span>
             </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/basics/" title="Basics (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/basics/" title="Basics of XAI (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
             </div>
             <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
               <div class="topbar-content">
@@ -136,15 +161,24 @@ What is next ? Soon, I will start adding content.">
 
 <h1 id="dezible">Dezible</h1>
 
-<h3 id="it-is-hard-to-focus---and-there-is-lot-to-learn">It is hard to focus - <em>and there is lot to learn</em>.</h3>
-<p>Cybersecurity is a very broad field. Broader than what people might imagine.</p>
-<p>There is a lot of data/information out there. It takes time to transform that to knowledge.</p>
-<h3 id="sharing-your-learning-progress-can-be-an-effective-way-to-do-it">Sharing your learning progress can be an effective way to do it.</h3>
-<p>My goal is to document and share my progress.</p>
-<p>Hopefully it helps you.</p>
-<h3 id="what-is-next-">What is next ?</h3>
-<p>Soon, I will start adding content. Relevant headings and categories will be used.</p>
-<p>For now - <strong>Fundamentals</strong>.</p>
+<p>Welcome to Dezible, where I will share my findings on the topic of <code>Explainable AI</code></p>
+<p>And who am I?</p>
+<p>And why do I want to talk about this topic?</p>
+<p>My name is Aditya Bhardwaj and am currently a PhD candidate at University of Twente - you can find me here through <a href="https://www.linkedin.com/in/ab4dev/" rel="external" target="_blank">LinkedIn profile</a></p>
+<p>I am deeply interested in following the progress in the area of <strong>XAI</strong> (yes, that is the term for eXplainable AI), specially in the methods of evaluating such XAI models.</p>
+<h3 id="what-is-the-goal">What is the goal?</h3>
+<p>As I am starting to go through academic research for my PhD, I realized that there is a lack of systemized knowledge on XAI. There might a lot of resources on this topic, but are present sparsely.</p>
+
+<details open class=" box cstyle notices accent">
+  <summary class="box-label a11y-only" tabindex="-1">
+    <span class="a11y-only">Details</span>
+  </summary>
+  <div class="box-content">
+<p>The goal is to collect and organize the literature, with a focus on practical adoption of XAI and the challenges it faces. I will also focus on implementing such methods and sharing it as open-source code.</p>
+  </div>
+</details>
+<h3 id="next-steps">Next steps</h3>
+<p>I will take a systematic approach where I update this site as I learn more. The aim is to share and cite the relevant research papers along with the code.</p>
 
   <footer class="footline">
   </footer>
@@ -159,7 +193,7 @@ What is next ? Soon, I will start adding content.">
 <a id="logo" href="/"><img src="https://raw.githubusercontent.com/psyklopp/Dezible-com/main/images/dezible_logo.png"></a>
         </div>
         <script>
-          window.index_js_url="/searchindex.js?1729241147";
+          window.index_js_url="/searchindex.en.js?1740153503";
         </script>
         <search><form action="/search/" method="get">
           <div class="searchbox default-animation">
@@ -172,22 +206,20 @@ What is next ? Soon, I will start adding content.">
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/js/auto-complete.js?1729241147" defer></script>
-        <script src="/js/lunr/lunr.min.js?1729241147" defer></script>
-        <script src="/js/lunr/lunr.stemmer.support.min.js?1729241147" defer></script>
-        <script src="/js/lunr/lunr.multi.min.js?1729241147" defer></script>
-        <script src="/js/lunr/lunr.en.min.js?1729241147" defer></script>
-        <script src="/js/search.js?1729241147" defer></script>
+        <script src="/js/auto-complete.js?1740153503" defer></script>
+        <script src="/js/lunr/lunr.min.js?1740153503" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1740153503" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1740153503" defer></script>
+        <script src="/js/lunr/lunr.en.min.js?1740153503" defer></script>
+        <script src="/js/search.js?1740153503" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
       </div>
       <div id="R-content-wrapper" class="highlightable">
-        <div id="R-topics">
+        <div id="R-shortcutmenu-home" class="R-sidebarmenu">
           <ul class="enlarge morespace collapsible-menu">
-            <li class="" data-nav-id="/basics/"><input type="checkbox" id="R-section-a6deabe447afe1b2e1405bfc57ca61ff" aria-controls="R-subsections-a6deabe447afe1b2e1405bfc57ca61ff"><label for="R-section-a6deabe447afe1b2e1405bfc57ca61ff"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Basics</span></label><a class="padding" href="/basics/"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">1.</b> Basics</a><ul id="R-subsections-a6deabe447afe1b2e1405bfc57ca61ff" class="collapsible-menu">
-            <li class="" data-nav-id="/basics/security-concepts/"><a class="padding" href="/basics/security-concepts/">Security Concepts</a></li></ul></li>
-            <li class="" data-nav-id="/about-me/"><a class="padding" href="/about-me/">About me</a></li>
+            <li class="" data-nav-id="/basics/"><a class="padding" href="/basics/"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">1.</b> Basics of XAI</a></li>
           </ul>
         </div>
         <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
@@ -214,13 +246,13 @@ What is next ? Soon, I will start adding content.">
                   <span>&nbsp;</span>
                   <div class="control-style">
                     <label class="a11y-only" for="R-select-variant">Theme</label>
-                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
-                      <option id="R-select-variant-dezible" value="dezible" selected>Dezible</option>
+                    <select id="R-select-variant" onchange="window.relearn.changeVariant( this.value );">
+                      <option id="R-select-variant-auto" value="auto" selected>Auto</option>
                     </select>
                   </div>
                   <div class="clear"></div>
                 </div>
-                <script>window.variants && variants.markSelectedVariant();</script>
+                <script>window.relearn.markVariant();</script>
               </li>
               <li class="footerVisitedLinks">
                 <div class="padding menu-control">
@@ -234,15 +266,15 @@ What is next ? Soon, I will start adding content.">
               </li>
             </ul>
           </div>
-          <div id="R-footer" class="footerFooter showFooter"><p style="text-align: center;">©2024 Dezible.com </p>
+          <div id="R-footer" class="footerFooter showFooter"><p style="text-align: center;">©2025 Dezible.com </p>
 <p style="font-size: 0.80rem; text-align: center;">Made with ❤️ with Hugo</p>
 
           </div>
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1729241147" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1729241147" defer></script>
-    <script src="/js/theme.js?1729241147" defer></script>
+    <script src="/js/clipboard.min.js?1740153503" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1740153503" defer></script>
+    <script src="/js/theme.js?1740153503" defer></script>
   </body>
 </html>

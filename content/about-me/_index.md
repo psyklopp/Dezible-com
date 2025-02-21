@@ -2,7 +2,7 @@
 archetype = "default"
 title = "Hello there!"
 linkTitle = "About me"
-draft = false
+draft = true
 +++
 
 :wave: My name is Aditya Bhardwaj. 

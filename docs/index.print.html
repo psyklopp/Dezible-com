@@ -1,65 +1,89 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.133.1">
-    <meta name="generator" content="Relearn 7.0.1+72a875f1db967152c77914cff4d53f8fcee0e619">
-    <meta name="description" content="It is hard to focus - and there is lot to learn. Cybersecurity is a very broad field. Broader than what people might imagine.
-There is a lot of data/information out there. It takes time to transform that to knowledge.
-Sharing your learning progress can be an effective way to do it. My goal is to document and share my progress.
-Hopefully it helps you.
-What is next ? Soon, I will start adding content.">
+    <meta name="generator" content="Hugo 0.144.1">
+    <meta name="generator" content="Relearn 7.4.0">
+    <meta name="description" content="Welcome to Dezible, where I will share my findings on the topic of Explainable AI
+And who am I?
+And why do I want to talk about this topic?
+My name is Aditya Bhardwaj and am currently a PhD candidate at University of Twente - you can find me here through LinkedIn profile
+I am deeply interested in following the progress in the area of XAI (yes, that is the term for eXplainable AI), specially in the methods of evaluating such XAI models.">
     <meta name="author" content="">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Dezible">
-    <meta name="twitter:description" content="It is hard to focus - and there is lot to learn. Cybersecurity is a very broad field. Broader than what people might imagine.
-There is a lot of data/information out there. It takes time to transform that to knowledge.
-Sharing your learning progress can be an effective way to do it. My goal is to document and share my progress.
-Hopefully it helps you.
-What is next ? Soon, I will start adding content.">
-    <meta property="og:url" content="http://localhost:1313/">
+    <meta name="twitter:description" content="Welcome to Dezible, where I will share my findings on the topic of Explainable AI
+And who am I?
+And why do I want to talk about this topic?
+My name is Aditya Bhardwaj and am currently a PhD candidate at University of Twente - you can find me here through LinkedIn profile
+I am deeply interested in following the progress in the area of XAI (yes, that is the term for eXplainable AI), specially in the methods of evaluating such XAI models.">
+    <meta property="og:url" content="https://dezible.com/">
     <meta property="og:site_name" content="Dezible">
     <meta property="og:title" content="Dezible">
-    <meta property="og:description" content="It is hard to focus - and there is lot to learn. Cybersecurity is a very broad field. Broader than what people might imagine.
-There is a lot of data/information out there. It takes time to transform that to knowledge.
-Sharing your learning progress can be an effective way to do it. My goal is to document and share my progress.
-Hopefully it helps you.
-What is next ? Soon, I will start adding content.">
+    <meta property="og:description" content="Welcome to Dezible, where I will share my findings on the topic of Explainable AI
+And who am I?
+And why do I want to talk about this topic?
+My name is Aditya Bhardwaj and am currently a PhD candidate at University of Twente - you can find me here through LinkedIn profile
+I am deeply interested in following the progress in the area of XAI (yes, that is the term for eXplainable AI), specially in the methods of evaluating such XAI models.">
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="website">
     <meta itemprop="name" content="Dezible">
-    <meta itemprop="description" content="It is hard to focus - and there is lot to learn. Cybersecurity is a very broad field. Broader than what people might imagine.
-There is a lot of data/information out there. It takes time to transform that to knowledge.
-Sharing your learning progress can be an effective way to do it. My goal is to document and share my progress.
-Hopefully it helps you.
-What is next ? Soon, I will start adding content.">
+    <meta itemprop="description" content="Welcome to Dezible, where I will share my findings on the topic of Explainable AI
+And who am I?
+And why do I want to talk about this topic?
+My name is Aditya Bhardwaj and am currently a PhD candidate at University of Twente - you can find me here through LinkedIn profile
+I am deeply interested in following the progress in the area of XAI (yes, that is the term for eXplainable AI), specially in the methods of evaluating such XAI models.">
     <meta itemprop="datePublished" content="2024-06-13T19:34:24+02:00">
     <meta itemprop="dateModified" content="2024-06-13T19:34:24+02:00">
-    <meta itemprop="wordCount" content="86">
+    <meta itemprop="wordCount" content="193">
     <title>Dezible</title>
-    <link href="http://localhost:1313/" rel="canonical" type="text/html" title="Dezible">
+    <link href="https://dezible.com/" rel="canonical" type="text/html" title="Dezible">
     <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Dezible"><link rel="icon" href="https://raw.githubusercontent.com/psyklopp/Dezible-com/main/images/dezible_favicon.png" type="image/png">
-    <link href="/css/fontawesome-all.min.css?1729241147" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1729241147" rel="stylesheet"></noscript>
-    <link href="/css/nucleus.css?1729241147" rel="stylesheet">
-    <link href="/css/auto-complete.css?1729241147" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1729241147" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1729241147" rel="stylesheet">
-    <link href="/css/fonts.css?1729241147" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1729241147" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1729241147" rel="stylesheet">
-    <link href="/css/theme-dezible.css?1729241147" rel="stylesheet" id="R-variant-style">
-    <link href="/css/chroma-relearn-light.css?1729241147" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/css/print.css?1729241147" rel="stylesheet" media="print">
-    <link href="/css/format-print.css?1729241147" rel="stylesheet">
-    <script src="/js/variant.js?1729241147"></script>
+    <link href="/css/fontawesome-all.min.css?1740153503" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1740153503" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1740153503" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1740153503" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1740153503" rel="stylesheet">
+    <link href="/css/theme.min.css?1740153503" rel="stylesheet">
+    <link href="/css/format-print.min.css?1740153503" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='.';
       window.relearn.relBaseUri='.';
-      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.absBaseUri='https:\/\/dezible.com';
+      window.relearn.min = `.min`;
       window.relearn.disableAnchorCopy=false;
       window.relearn.disableAnchorScrolling=false;
+      window.relearn.enableBlockCodeWrap=true;
+      window.relearn.disableInlineCopyToClipboard=true;
       // variant stuff
-      window.variants && variants.init( [ 'dezible' ] );
+      window.relearn.themevariants = [ 'auto' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        var select = document.querySelector("#R-select-variant");
+        if (select) {
+          select.value = variant;
+        }
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
       // translations
       window.T_Copy_to_clipboard = `Copy to clipboard`;
       window.T_Copied_to_clipboard = `Copied to clipboard!`;
@@ -76,12 +100,12 @@ What is next ? Soon, I will start adding content.">
     --MENU-WIDTH-S: 13.375rem;
     --MENU-WIDTH-M: 13.375rem;
     --MENU-WIDTH-L: 15.75rem;
-    --MAIN-WIDTH-MAX: 65.25rem;
+    --MAIN-WIDTH-MAX: 80.25rem;
 }
 </style>
 
   </head>
-  <body class="mobile-support print disableInlineCopyToClipboard" data-url="/">
+  <body class="mobile-support print" data-url="/">
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
       <nav id="R-topbar">
@@ -97,9 +121,8 @@ What is next ? Soon, I will start adding content.">
   <ul>
     <li>
       <ul>
-        <li><a href="#it-is-hard-to-focus---and-there-is-lot-to-learn">It is hard to focus - <em>and there is lot to learn</em>.</a></li>
-        <li><a href="#sharing-your-learning-progress-can-be-an-effective-way-to-do-it">Sharing your learning progress can be an effective way to do it.</a></li>
-        <li><a href="#what-is-next-">What is next ?</a></li>
+        <li><a href="#what-is-the-goal">What is the goal?</a></li>
+        <li><a href="#next-steps">Next steps</a></li>
       </ul>
     </li>
   </ul>
@@ -109,13 +132,14 @@ What is next ? Soon, I will start adding content.">
             </div>
           </div>
           <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Dezible</span><meta itemprop="position" content="1"></li>
           </ol>
           <div class="topbar-area topbar-area-end" data-area="end">
-            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/index.print.html" title="Print whole chapter (CTRL&#43;ALT&#43;p)"><i class="fa-fw fas fa-print"></i></a>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
             </div>
             <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><span class="topbar-control"><i class="fa-fw fas fa-chevron-left"></i></span>
             </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/basics/" title="Basics (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/basics/" title="Basics of XAI (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
             </div>
             <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
               <div class="topbar-content">
@@ -137,165 +161,17 @@ What is next ? Soon, I will start adding content.">
   <header class="headline">
   </header>
 
-<h1 id="basics">Basics</h1>
+<h1 id="basics-of-xai">Basics of XAI</h1>
 
-<div class="box notices cstyle accent">
+
+<details open class=" box cstyle notices green">
+  <summary class="box-label a11y-only" tabindex="-1">
+    <span class="a11y-only">Details</span>
+  </summary>
   <div class="box-content">
 <p>Let&rsquo;s get familiar with some basics first.</p>
   </div>
-</div>
-
-  <footer class="footline">
-  </footer>
-</article>
-          <section>
-            <h1 class="a11y-only">Subsections of Basics</h1>
-<article class="default">
-  <header class="headline">
-  </header>
-
-<h1 id="security-concepts">Security Concepts</h1>
-
-<h2 id="definition-and-terms">Definition and Terms</h2>
-<div class="expand box notices cstyle default" style="--VARIABLE-BOX-color: green;">
-  <input type="checkbox" id="R-expand-9d98c668b3732929b84ea84030f77887" aria-controls="R-expandcontent-9d98c668b3732929b84ea84030f77887">
-  <label class="expand-label box-label" for="R-expand-9d98c668b3732929b84ea84030f77887">
-    <i class="expander-icon fa-fw fas fa-chevron-down"></i>
-    <i class="expander-icon fa-fw fas fa-chevron-right"></i> <strong>1.  What is cybersecurity ?</strong>
-  </label>
-  <div class="box-spacer"></div>
-  <div id="R-expandcontent-9d98c668b3732929b84ea84030f77887" class="box-content expand-content">
-<p>Cybersecurity refers to any technologies, practices and policies for preventing cyberattacks or mitigating their impact. The aim is to protect computer systems, applications, devices, data, financial assets and people against cyberthreats. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>IBM Topics in cybersecurity - <a href="https://www.ibm.com/topics/cybersecurity" rel="external" target="_blank">https://www.ibm.com/topics/cybersecurity</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
-  </div>
-</div>
-<div class="box notices cstyle accent">
-  <div class="box-content">
-<p>&#x1f4a1; Cybersecurity is very broad indeed. Hence there are a lot of standard guidelines/frameworks which help companies understand their security posture and take appropriate measures. One such framrwork is NIST Cybersecurity Framework (CSF).</p>
-  </div>
-</div>
-<div class="expand box notices cstyle default" style="--VARIABLE-BOX-color: blue;">
-  <input type="checkbox" id="R-expand-d257df5c06dc6d6307033cf37666212f" aria-controls="R-expandcontent-d257df5c06dc6d6307033cf37666212f">
-  <label class="expand-label box-label" for="R-expand-d257df5c06dc6d6307033cf37666212f">
-    <i class="expander-icon fa-fw fas fa-chevron-down"></i>
-    <i class="expander-icon fa-fw fas fa-chevron-right"></i> <strong>2.  What is NIST CSF ?</strong>
-  </label>
-  <div class="box-spacer"></div>
-  <div id="R-expandcontent-d257df5c06dc6d6307033cf37666212f" class="box-content expand-content">
-<p>NIST is the National Institute of Standards and Technology at the U.S. Department of Commerce. NIST Cybersecurity Framework (CSF) offers a taxonomy of highlevel cybersecurity outcomes that can be used by any organization — regardless of its size, sector, or maturity — to better understand, assess, prioritize, and communicate its cybersecurity efforts. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
-<p>Note: CSF is a recommendation and the framework is voluntary.</p>
-<div class="expand">
-  <input type="checkbox" id="R-expand-109ad16d4d463c152fb108a03feb7f67" aria-controls="R-expandcontent-109ad16d4d463c152fb108a03feb7f67">
-  <label class="expand-label" for="R-expand-109ad16d4d463c152fb108a03feb7f67">
-    <i class="expander-icon fa-fw fas fa-chevron-down"></i>
-    <i class="expander-icon fa-fw fas fa-chevron-right"></i> Resources
-  </label>
-  <div id="R-expandcontent-109ad16d4d463c152fb108a03feb7f67" class="expand-content">
-<p>You can put the NIST Cybersecurity Framework to work in your business in these five areas: <strong>Identify, Protect, Detect, Respond, and Recover</strong>.</p>
-<ul>
-<li>See <a href="https://csrc.nist.gov/projects/cybersecurity-framework/filters#/csf/filters" rel="external" target="_blank">how would you implement this</a> for your company.</li>
-<li><a href="https://csrc.nist.gov/publications/" rel="external" target="_blank">Other publications</a> by NIST.</li>
-</ul>
-<p>&#x2712;&#xfe0f; Mention other frameworks for eg. ISO/IEC 27000.</p>
-  </div>
-</div>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>NIST Cybersecurity Framework (CSF) - <a href="https://www.nist.gov/cyberframework" rel="external" target="_blank">https://www.nist.gov/cyberframework</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
-  </div>
-</div>
-<div class="expand box notices cstyle default" style="--VARIABLE-BOX-color: green;">
-  <input type="checkbox" id="R-expand-9d68216801cd9baaa77ac7eb724a459f" aria-controls="R-expandcontent-9d68216801cd9baaa77ac7eb724a459f">
-  <label class="expand-label box-label" for="R-expand-9d68216801cd9baaa77ac7eb724a459f">
-    <i class="expander-icon fa-fw fas fa-chevron-down"></i>
-    <i class="expander-icon fa-fw fas fa-chevron-right"></i> <strong>3.  What is a Threat ?</strong>
-  </label>
-  <div class="box-spacer"></div>
-  <div id="R-expandcontent-9d68216801cd9baaa77ac7eb724a459f" class="box-content expand-content">
-<p>Threat refers to the <strong>danger</strong> to an asset. Assets being anything and everything of value to you. For eg. private data, servers, application, app. Examples of threat - data breach, malware infection, targeted cyber attacks, DDoS attacks.</p>
-<p>&#x1f52e; Natural disasters also counts. Imagine if a tornado flew away your house along with the USB drive containing your BTC.</p>
-  </div>
-</div>
-<div class="expand box notices cstyle default" style="--VARIABLE-BOX-color: green;">
-  <input type="checkbox" id="R-expand-711e5a24681be6ba2dbd06443c30050f" aria-controls="R-expandcontent-711e5a24681be6ba2dbd06443c30050f">
-  <label class="expand-label box-label" for="R-expand-711e5a24681be6ba2dbd06443c30050f">
-    <i class="expander-icon fa-fw fas fa-chevron-down"></i>
-    <i class="expander-icon fa-fw fas fa-chevron-right"></i> <strong>4.  What is a Vulnerability ?</strong>
-  </label>
-  <div class="box-spacer"></div>
-  <div id="R-expandcontent-711e5a24681be6ba2dbd06443c30050f" class="box-content expand-content">
-<p>Vulnerability refers to the <strong>weakness</strong> in an asset. For eg. a weak password on your laptop presents a vulnerability which can potentially be exploited by a threat.</p>
-<p>&#x2712;&#xfe0f; How do you track and identify vulnerabilities in cybersecurity?</p>
-  </div>
-</div>
-<div class="expand box notices cstyle default" style="--VARIABLE-BOX-color: green;">
-  <input type="checkbox" id="R-expand-e708522602eccb52520ed906c10d786a" aria-controls="R-expandcontent-e708522602eccb52520ed906c10d786a">
-  <label class="expand-label box-label" for="R-expand-e708522602eccb52520ed906c10d786a">
-    <i class="expander-icon fa-fw fas fa-chevron-down"></i>
-    <i class="expander-icon fa-fw fas fa-chevron-right"></i> <strong>5.  What is a Risk ?</strong>
-  </label>
-  <div class="box-spacer"></div>
-  <div id="R-expandcontent-e708522602eccb52520ed906c10d786a" class="box-content expand-content">
-<p>Risk is the <strong>chance/possibility/potential</strong> for a loss when a threat occurs. It is often described by the equation<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>:</p>
-<p><code>Vulnerability x Threat = Risk</code></p>
-<p>&#x2712;&#xfe0f; Use scenarios to explain risks in cybersecurity.</p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>Splunk - <a href="https://www.splunk.com/en_us/blog/learn/vulnerability-vs-threat-vs-risk.html" rel="external" target="_blank">Vulnerabilities, Threats &amp; Risk Explained</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
-  </div>
-</div>
-<div class="expand box notices cstyle default" style="--VARIABLE-BOX-color: green;">
-  <input type="checkbox" id="R-expand-d406f762d5a2507fa299e9b796a17f6e" aria-controls="R-expandcontent-d406f762d5a2507fa299e9b796a17f6e">
-  <label class="expand-label box-label" for="R-expand-d406f762d5a2507fa299e9b796a17f6e">
-    <i class="expander-icon fa-fw fas fa-chevron-down"></i>
-    <i class="expander-icon fa-fw fas fa-chevron-right"></i> <strong>6.  What is an Exploit ?</strong>
-  </label>
-  <div class="box-spacer"></div>
-  <div id="R-expandcontent-d406f762d5a2507fa299e9b796a17f6e" class="box-content expand-content">
-<p>&lsquo;To exploit&rsquo; means to take advantage. Given a vulnerability, an attacker will use a method (code,technique,steps) to take advantage of such weakness. Such malicious methods are called exploits.</p>
-<p>Once the security flaw is <em>exploited</em>, the attacker might gain access to your data, system or server. At this point, maintaining access and installing other bad stuff (think of malwares, key-loggers) becomes a priority.</p>
-<p>Recommended read: <a href="https://www.sentinelone.com/cybersecurity-101/threat-intelligence/what-is-an-exploit/" rel="external" target="_blank">Sentinel One - What is an exploit in cybersecurity?</a></p>
-<p>&#x2712;&#xfe0f; Examples of exploit. What is a zero-day (0day) exploit?</p>
-  </div>
-</div>
-
-  <footer class="footline">
-  </footer>
-</article>
-          </section>
-<article class="default">
-  <header class="headline">
-  </header>
-
-<h1 id="hello-there">Hello there!</h1>
-
-<p>&#x1f44b; My name is Aditya Bhardwaj.</p>
-<p>I passed out in July 2024 with an MSc. degree in Cybersecurity. &#x1f4da;</p>
-<h4 id="i-have-a-goal---to-build-real-life-skills-in-cybersecurity">I have a goal - <em>to build real-life skills in cybersecurity</em></h4>
-<p>While I learned a lot of things in my studies, I didn&rsquo;t focus on the real-world tools.</p>
-<p>I want to build an open-access knowledge base for learning <strong>Security Operation Center (SOC)</strong> skills.</p>
-<div class="box notices cstyle accent">
-  <div class="box-content">
-<p>&#x1f4a1; Practical knowledge that is meaningful in real-life applications. In cybersecurity.</p>
-  </div>
-</div>
+</details>
 
   <footer class="footline">
   </footer>
@@ -304,8 +180,8 @@ What is next ? Soon, I will start adding content.">
         </div>
       </main>
     </div>
-    <script src="/js/clipboard.min.js?1729241147" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1729241147" defer></script>
-    <script src="/js/theme.js?1729241147" defer></script>
+    <script src="/js/clipboard.min.js?1740153503" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1740153503" defer></script>
+    <script src="/js/theme.js?1740153503" defer></script>
   </body>
 </html>

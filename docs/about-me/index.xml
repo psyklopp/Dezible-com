@@ -3,7 +3,7 @@
   <channel>
     <title>Hello there! - Dezible</title>
     <link>http://localhost:1313/about-me/</link>
-    <description>👋 My name is Aditya Bhardwaj.&#xA;I passed out in July 2024 with an MSc. degree in Cybersecurity. 📚&#xA;I have a goal - to build real-life skills in cybersecurity While I learned a lot of things in my studies, I didn’t focus on the real-world tools.&#xA;I want to build an open-access knowledge base for learning Security Operation Center (SOC) skills.&#xA;💡 Practical knowledge that is meaningful in real-life applications.</description>
+    <description>👋 My name is Aditya Bhardwaj.&#xA;I passed out in July 2024 with an MSc. degree in Cybersecurity. 📚&#xA;I have a goal - to build real-life skills in cybersecurity While I learned a lot of things in my studies, I didn’t focus on the real-world tools.&#xA;I want to build an open-access knowledge base for learning Security Operation Center (SOC) skills.&#xA;Details 💡 Practical knowledge that is meaningful in real-life applications. In cybersecurity.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/about-me/index.xml" rel="self" type="application/rss+xml" />
