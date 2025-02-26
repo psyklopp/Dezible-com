@@ -3,27 +3,43 @@ archetype = "home"
 title = ""
 +++
 
-Welcome to Dezible, where I will share my findings on the topic of `Explainable AI`
+Welcome to Dezible.
 
-And who am I?
+Read the interesting experiment below or check out the basics of XAI starting [here](/basics/).
 
-And why do I want to talk about this topic?
+### Experiment
 
-My name is Aditya Bhardwaj and am currently a PhD candidate at University of Twente - you can find me here through [LinkedIn profile](https://www.linkedin.com/in/ab4dev/)
+In 2018, hundreds of top computer scientists, financial engineers, and executives - were asked to engage in a thought experiment where they had cancer and needed surgery to remove a tumor.
 
-I am deeply interested in following the progress in the area of **XAI** (yes, that is the term for eXplainable AI), specially in the methods of evaluating such XAI models.
+Two images were displayed on the screen. 
 
-### What is the goal?
+{{% expand title="Image 1" %}}
 
-As I am starting to go through academic research for my PhD, I realized that there is a lack of systemized knowledge on XAI. There might a lot of resources on this topic, but are present sparsely.
+Human surgeon, who could explain anything about the surgery, but had a 15% chance of causing death during the surgery. 
+
+{{% /expand %}}
+
+{{% expand title="Image 2" %}}
+
+Robotic arm that could perform the surgery with only a 2% chance of failure. 
+
+{{% /expand %}}
+
+The audience was then asked to raise a hand to vote for which of the two they would prefer to perform life-saving surgery. 
+
+All but one hand voted for the robot.
 
 {{% notice style="accent" %}}
-The goal is to collect and organize the literature, with a focus on practical adoption of XAI and the challenges it faces. I will also focus on implementing such methods and sharing it as open-source code. 
+It is obvious that a 2% chance of mortality is better than a 15% chance of mortality.
 {{% /notice %}}
 
-### Next steps
+Humans are too inhibited to adopt techniques which are not interpretable, traceable or trustworthy.
 
-I will take a systematic approach where I update this site as I learn more. The aim is to share and cite the relevant research papers along with the code.
+So, why must the robot be a black box?
+
+And would people trust a robotic-hand? If the AI system could converse or maybe explain itself (better).
+
+#### :black_nib: currently...
 
 
-
+February 2025: Develop the first section - the `What`, `Why`, `What for` and `How` in XAI 
