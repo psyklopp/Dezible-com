@@ -3,17 +3,24 @@
   <channel>
     <title>Dezible</title>
     <link>https://dezible.com/</link>
-    <description>Welcome to Dezible, where I will share my findings on the topic of Explainable AI&#xA;And who am I?&#xA;And why do I want to talk about this topic?&#xA;My name is Aditya Bhardwaj and am currently a PhD candidate at University of Twente - you can find me here through LinkedIn profile&#xA;I am deeply interested in following the progress in the area of XAI (yes, that is the term for eXplainable AI), specially in the methods of evaluating such XAI models.</description>
+    <description>Welcome to Dezible.&#xA;Read the interesting experiment below or check out the basics of XAI starting here.&#xA;Experiment In 2018, hundreds of top computer scientists, financial engineers, and executives - were asked to engage in a thought experiment where they had cancer and needed surgery to remove a tumor.&#xA;Two images were displayed on the screen.&#xA;First image Human surgeon, who could explain anything about the surgery, but had a 15% chance of causing death during the surgery.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jun 2024 19:34:24 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 25 Feb 2025 19:34:24 +0200</lastBuildDate>
     <atom:link href="https://dezible.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Basics of XAI</title>
+      <title>eXplainable AI</title>
       <link>https://dezible.com/basics/</link>
-      <pubDate>Thu, 13 Jun 2024 19:34:24 +0200</pubDate>
+      <pubDate>Tue, 25 Feb 2025 19:34:24 +0200</pubDate>
       <guid>https://dezible.com/basics/</guid>
-      <description>Details Let’s get familiar with some basics first.</description>
+      <description>For this section, I will refer to an excellent article published in 2020. It has reviewed concepts related to explainability of AI methods, discussed some transparent models and built a taxonomy based on the reviewed literature.&#xA;✒️ You can read the whole paper here Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI https://doi.org/10.1016/j.inffus.2019.12.012.</description>
+    </item>
+    <item>
+      <title>Who am I?</title>
+      <link>https://dezible.com/goal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dezible.com/goal/</guid>
+      <description>And why do I want to talk about this topic?&#xA;My name is Aditya Bhardwaj and am currently a PhD candidate at University of Twente - you can find me here through LinkedIn profile&#xA;I am deeply interested in following the progress in the area of XAI, specially in the methods of evaluating such XAI models.&#xA;And as I am starting to go through academic research for my PhD, I realized that there is a lack of systemized knowledge on XAI. There might a lot of resources on this topic, but are present sparsely.</description>
     </item>
   </channel>
 </rss>

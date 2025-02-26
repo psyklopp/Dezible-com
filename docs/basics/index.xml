@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Basics of XAI - Dezible</title>
+    <title>eXplainable AI - Dezible</title>
     <link>https://dezible.com/basics/</link>
-    <description>Details Let’s get familiar with some basics first.</description>
+    <description>For this section, I will refer to an excellent article published in 2020. It has reviewed concepts related to explainability of AI methods, discussed some transparent models and built a taxonomy based on the reviewed literature.&#xA;✒️ You can read the whole paper here Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI https://doi.org/10.1016/j.inffus.2019.12.012.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Tue, 25 Feb 2025 19:34:24 +0200</lastBuildDate>
     <atom:link href="https://dezible.com/basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is XAI</title>
+      <link>https://dezible.com/basics/what-is-xai/</link>
+      <pubDate>Tue, 25 Feb 2025 19:34:24 +0200</pubDate>
+      <guid>https://dezible.com/basics/what-is-xai/</guid>
+      <description>The sophistication of AI-powered systems have increased exponentially in the last decade. And yet, you can (almost) design and deployment whole AI models without any human intervention.&#xA;I came across the experiment I shared on home page when I was reading an article titled:&#xA;Why Are We Using Black Box Models in AI When We Don’t Need To? A Lesson From an Explainable AI Competition&#xA;We are employing Machine Learning (ML) in more critical areas than ever. Hence it is natural to demand transparency in the decision-making process inside such models.</description>
+    </item>
   </channel>
 </rss>

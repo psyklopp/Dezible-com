@@ -13,13 +13,13 @@ In 2018, hundreds of top computer scientists, financial engineers, and executive
 
 Two images were displayed on the screen. 
 
-{{% expand title="Image 1" %}}
+{{% expand title="First image" %}}
 
 Human surgeon, who could explain anything about the surgery, but had a 15% chance of causing death during the surgery. 
 
 {{% /expand %}}
 
-{{% expand title="Image 2" %}}
+{{% expand title="Second image" %}}
 
 Robotic arm that could perform the surgery with only a 2% chance of failure. 
 
