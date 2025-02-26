@@ -1,45 +1,29 @@
 # Dezible
 
-Dezible is a project where I will try to post content in cybersecurity. [Homepage - Dezible](https://www.dezible.com/)
+📑 Dezible is a project where I will try to post my learnings, findings and code samples in the field of eXplainable AI (XAI). [Homepage - Dezible](https://www.dezible.com/)
 
-## Questions
-
-As of Oct 24, 2024 I enrolled in a Udemy course titled *Master Cisco CCNA 200-301: Comprehensive All-in-One Course*. So I am sharing the important questions here, by day.
+As a community we aim to develop and improve XAI to meet the needs and expectations of end-users. But the question arises, how is it even possible if they are not a part of evaluation?
 
 <details>
-<summary><h3>24 Oct, 2024</h3></summary>
-  
-  **1. What is the difference between router and switch?**
-
-  - https://www.cloudflare.com/en-gb/learning/network-layer/what-is-a-network-switch/
-
-  - https://www.freecodecamp.org/news/osi-model-networking-layers-explained-in-plain-english/
-
-**2. What is the difference between node and host?**
-
-- https://www.crazyengineers.com/threads/host-vs-node-in-networking.81361
-
-**3. Why does switches have more ports than router?**
-- https://learningnetwork.cisco.com/s/question/0D53i00000aXDmTCAW/dumb-question-why-a-switch-has-many-ports-while-the-router-only-has-a-few
-
-**4. What is a firewall?**
-
-- https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-firewall.html
-
-**5. What are different types of firewall?**
-
-- https://www.paloaltonetworks.com/cyberpedia/types-of-firewalls
+<summary><h3>What the hell is XAI❓</h3></summary>
+XAI is a subfield of AI that deals with making machine learning models explainable to users. This includes techniques such as model interpretability and providing clear, understandable reasons for decisions made by algorithms.
 </details>
 
 <details>
-<summary><h3>26 Oct, 2024</h3></summary>
+<summary><h3> Why should you care about XAI❓</h3></summary>
 
-**1. What is Ethernet?**
+With XAI, the goal is to get insights into why AI systems make particular decisions or predictions. We can list out some points that describe its significance.
 
-- https://www.freecodecamp.org/news/the-complete-guide-to-the-ethernet-protocol/
+1. **Enhancing Model Trustworthiness**: XAI provides transparency into the reasoning behind AI outputs, increasing confidence in their reliability.
 
-**2. What is the ethernet standard?**
+2. **Debugging & Refining AI Systems**: Identifying where an AI goes wrong allows for targeted improvements. Understanding error causes facilitates adjusting training data or altering the model's structure to reduce mistakes.
 
-- IEEE standard 802.3
+3. **Improved Decision Making**: XAI enables users to understand and validate AI-driven decisions, making informed choices when relying on AI outputs or in integrating those outputs into human decision-making processes.
+
+4. F**acilitating Model Interpretability**: Beyond just predictions, XAI helps dissect how features contribute to outcomes across different types of models, from deep learning networks to more interpretable models like linear regression.
+
+5. **Supporting Regulatory Compliance & Legal Standards**: As AI systems permeate more critical societal domains, regulatory frameworks increasingly require their transparency and explainability, especially in healthcare, finance, or autonomous vehicles.
+
+6. **Boosting User Engagement & Satisfaction**: When individuals understand how an AI works, they're more likely to interact with it positively. Clear explanations enhance user experience by demystifying AI actions.
 
 </details>
