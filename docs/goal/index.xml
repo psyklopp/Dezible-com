@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Who am I? - Dezible</title>
-    <link>https://dezible.com/goal/</link>
-    <description>And why do I want to talk about this topic?&#xA;My name is Aditya Bhardwaj and am currently a PhD candidate at University of Twente - you can find me here through LinkedIn profile&#xA;I am deeply interested in following the progress in the area of XAI, specially in the methods of evaluating such XAI models.&#xA;And as I am starting to go through academic research for my PhD, I realized that there is a lack of systemized knowledge on XAI. There might a lot of resources on this topic, but are present sparsely.</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://dezible.com/goal/index.xml" rel="self" type="application/rss+xml" />
+    <title>Who am I? on Dezible</title>
+    <link>http://localhost:1313/goal/</link>
+    <description>Recent content in Who am I? on Dezible</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost:1313/goal/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

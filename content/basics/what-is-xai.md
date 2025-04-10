@@ -19,11 +19,6 @@ The article above argues that it makes more sense to shift our focus to **creati
 More accurate models does not have to mean less interpretability/transparency.
 {{% /notice %}}
 
-While I fully agree with the above statement, the truth is, convoluted models based on Deep Learning (DL) or Neural Networks (NN) methods have seen more success in applications (as compared to simpler models) [^cite]
+While I fully agree with the above statement, convoluted models based on Deep Learning (DL) or Neural Networks (NN) methods have seen more success in applications which deal with higher dimensional data (think of images).
 
-And there is much work to be accomplished, before they enjoy more practical adoption.
-
-[^cite]: *citation required*
-
-
-📌 *This section is in progress*
+This doesn't mean that such models are appropriate in all cases. This reminds me of the mathematical folklore of ['No free lunch' (NFL) theorem](https://en.wikipedia.org/wiki/No_free_lunch_theorem).

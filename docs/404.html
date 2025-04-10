@@ -1,76 +1,85 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
-  <head>
+<html lang="en" dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.144.1">
-    <meta name="generator" content="Relearn 7.4.0">
+    <meta name="generator" content="Hugo 0.145.0">
+    <meta name="generator" content="Relearn 5.20.0+tip">
     <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="404 Page not found - Dezible">
-    <meta property="og:url" content="https://dezible.com/404.html">
-    <meta property="og:site_name" content="Dezible">
-    <meta property="og:title" content="404 Page not found - Dezible">
-    <meta property="og:locale" content="en_us">
-    <meta property="og:type" content="website">
-    <meta itemprop="name" content="404 Page not found - Dezible">
     <title>404 Page not found - Dezible</title>
-    <base href="https://dezible.com/"><link rel="icon" href="https://raw.githubusercontent.com/psyklopp/Dezible-com/main/images/dezible_favicon.png" type="image/png">
-    <link href="/css/fontawesome-all.min.css?1740567546" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1740567546" rel="stylesheet"></noscript>
-    <link href="/css/auto-complete.css?1740567546" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1740567546" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1740567546" rel="stylesheet">
-    <link href="/css/theme.min.css?1740567546" rel="stylesheet">
-    <link href="/css/format-html.min.css?1740567546" rel="stylesheet" id="R-format-style">
+    <base href="http://localhost:1313/"><link rel="icon" href="https://raw.githubusercontent.com/psyklopp/Dezible-com/main/images/dezible_favicon.png" type="image/png">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1744293341" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1744293341" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1744293341" rel="stylesheet">
+    <link href="/css/auto-complete.css?1744293341" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1744293341" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1744293341" rel="stylesheet">
+    <link href="/css/fonts.css?1744293341" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1744293341" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1744293341" rel="stylesheet">
+    <link href="/css/theme-auto.css?1744293341" rel="stylesheet" id="variant-style">
+    <link href="/css/variant.css?1744293341" rel="stylesheet">
+    <link href="/css/print.css?1744293341" rel="stylesheet" media="print">
+    <link href="/css/ie.css?1744293341" rel="stylesheet">
+    <script src="/js/url.js?1744293341"></script>
+    <script src="/js/variant.js?1744293341"></script>
     <script>
-      window.relearn = window.relearn || {};
-      window.relearn.relBasePath='.';
-      window.relearn.relBaseUri='.';
-      window.relearn.absBaseUri='https:\/\/dezible.com';
-      window.relearn.min = `.min`;
-      window.relearn.disableAnchorCopy=false;
-      window.relearn.disableAnchorScrolling=false;
-      window.relearn.enableBlockCodeWrap=true;
-      window.relearn.disableInlineCopyToClipboard=true;
-      // variant stuff
-      window.relearn.themevariants = [ 'auto' ];
-      window.relearn.customvariantname = "my-custom-variant";
-      window.relearn.changeVariant = function(variant) {
-        var oldVariant = document.documentElement.dataset.rThemeVariant;
-        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
-        document.documentElement.dataset.rThemeVariant = variant;
-        if (oldVariant != variant) {
-          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
-        }
-      }
-      window.relearn.markVariant = function() {
-        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
-        var select = document.querySelector("#R-select-variant");
-        if (select) {
-          select.value = variant;
-        }
-      }
-      window.relearn.initVariant = function() {
-        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
-        if( variant == window.relearn.customvariantname ){
-        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
-          variant = window.relearn.themevariants[0];
-          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
-        }
-        document.documentElement.dataset.rThemeVariant = variant;
-      }
-      window.relearn.initVariant();
-      window.relearn.markVariant();
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
       // translations
-      window.T_Copy_to_clipboard = `Copy to clipboard`;
-      window.T_Copied_to_clipboard = `Copied to clipboard!`;
-      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
-      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
-      window.T_Reset_view = `Reset view`;
-      window.T_View_reset = `View reset!`;
-      window.T_No_results_found = `No results found for "{0}"`;
-      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='http:\/\/localhost:1313/';
+      window.variants && variants.init( [ 'auto' ] );
     </script>
+    <style>
+      p {
+        text-align: center
+      }
+      .notfound #body {
+          margin-inline-start: 0;
+          max-width: 100%;
+          min-width: 100%;
+          width: 100%;
+      }
+      .notfound h1 {
+          color: var(--MAIN-TEXT-color);
+          line-height: 1;
+          font-size: 5rem;
+          overflow: hidden;
+      }
+      .notfound h1 span {
+          font-size: 6.5rem;
+          font-weight: 500;
+      }
+      .notfound h1 i {
+          font-size: 5rem;
+          vertical-align: text-top;
+      }
+      .notfound h2 {
+        color: var(--MAIN-TEXT-color);
+        font-size: 2.5rem;
+        font-weight: 500;
+        padding: 0;
+        text-align: center;
+      }
+      #shrug svg,
+      #shrug svg * {
+        color: #000000;
+        color: var(--MAIN-TEXT-color);
+        fill: #000000 !important;
+        fill: var(--MAIN-TEXT-color) !important;
+      }
+      #shrug svg{
+        transform: scaleX(-1);
+        width: 15rem;
+      }
+    </style>
 
 <style>
    :root {
@@ -83,14 +92,15 @@
 
   </head>
   <body class="mobile-support html notfound" data-url="/404.html">
-    <div id="R-body" class="default-animation">
-      <main id="R-body-inner" class="highlightable chapter" tabindex="-1">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <main id="body-inner" class="chapter" tabindex="-1">
         <div class="flex-block-wrapper">
           <article>
             <h1 id="404"><span>4</span><i class="far fa-frown"></i><span>4</span></h1>
             <h2 id="not-found">Not found</h2>
             <p></p>
-            <p>Whoops. Looks like this page doesn&#39;t exist ¯\_(ツ)_/¯.</p>
+            <p>Woops. Looks like this page doesn&#39;t exist ¯\_(ツ)_/¯.</p>
             <p></p>
             <p><a href="/">Go to homepage</a></p>
             <p id="shrug">

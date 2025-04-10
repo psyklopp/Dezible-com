@@ -1,95 +1,40 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
-  <head>
+<html lang="en" dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.144.1">
-    <meta name="generator" content="Relearn 7.4.0">
-    <meta name="description" content="The sophistication of AI-powered systems have increased exponentially in the last decade. And yet, you can (almost) design and deployment whole AI models without any human intervention.
-I came across the experiment I shared on home page when I was reading an article titled:
-Why Are We Using Black Box Models in AI When We Don’t Need To? A Lesson From an Explainable AI Competition
-We are employing Machine Learning (ML) in more critical areas than ever. Hence it is natural to demand transparency in the decision-making process inside such models.">
-    <meta name="author" content="">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="What is XAI - Dezible">
-    <meta name="twitter:description" content="The sophistication of AI-powered systems have increased exponentially in the last decade. And yet, you can (almost) design and deployment whole AI models without any human intervention.
-I came across the experiment I shared on home page when I was reading an article titled:
-Why Are We Using Black Box Models in AI When We Don’t Need To? A Lesson From an Explainable AI Competition
-We are employing Machine Learning (ML) in more critical areas than ever. Hence it is natural to demand transparency in the decision-making process inside such models.">
-    <meta property="og:url" content="https://dezible.com/basics/what-is-xai/">
-    <meta property="og:site_name" content="Dezible">
-    <meta property="og:title" content="What is XAI - Dezible">
-    <meta property="og:description" content="The sophistication of AI-powered systems have increased exponentially in the last decade. And yet, you can (almost) design and deployment whole AI models without any human intervention.
-I came across the experiment I shared on home page when I was reading an article titled:
-Why Are We Using Black Box Models in AI When We Don’t Need To? A Lesson From an Explainable AI Competition
-We are employing Machine Learning (ML) in more critical areas than ever. Hence it is natural to demand transparency in the decision-making process inside such models.">
-    <meta property="og:locale" content="en_us">
-    <meta property="og:type" content="article">
-    <meta property="article:section" content="eXplainable AI">
-    <meta property="article:published_time" content="2025-02-25T19:34:24+02:00">
-    <meta property="article:modified_time" content="2025-02-25T19:34:24+02:00">
-    <meta itemprop="name" content="What is XAI - Dezible">
-    <meta itemprop="description" content="The sophistication of AI-powered systems have increased exponentially in the last decade. And yet, you can (almost) design and deployment whole AI models without any human intervention.
-I came across the experiment I shared on home page when I was reading an article titled:
-Why Are We Using Black Box Models in AI When We Don’t Need To? A Lesson From an Explainable AI Competition
-We are employing Machine Learning (ML) in more critical areas than ever. Hence it is natural to demand transparency in the decision-making process inside such models.">
-    <meta itemprop="datePublished" content="2025-02-25T19:34:24+02:00">
-    <meta itemprop="dateModified" content="2025-02-25T19:34:24+02:00">
-    <meta itemprop="wordCount" content="184">
+    <meta name="generator" content="Hugo 0.145.0">
+    <meta name="generator" content="Relearn 5.20.0+tip">
+    <meta name="description" content="">
     <title>What is XAI - Dezible</title><link rel="icon" href="https://raw.githubusercontent.com/psyklopp/Dezible-com/main/images/dezible_favicon.png" type="image/png">
-    <link href="/css/fontawesome-all.min.css?1740567546" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1740567546" rel="stylesheet"></noscript>
-    <link href="/css/auto-complete.css?1740567546" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1740567546" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1740567546" rel="stylesheet">
-    <link href="/css/theme.min.css?1740567546" rel="stylesheet">
-    <link href="/css/format-html.min.css?1740567546" rel="stylesheet" id="R-format-style">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1744293341" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1744293341" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1744293341" rel="stylesheet">
+    <link href="/css/auto-complete.css?1744293341" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1744293341" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1744293341" rel="stylesheet">
+    <link href="/css/fonts.css?1744293341" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1744293341" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1744293341" rel="stylesheet">
+    <link href="/css/theme-auto.css?1744293341" rel="stylesheet" id="variant-style">
+    <link href="/css/variant.css?1744293341" rel="stylesheet">
+    <link href="/css/print.css?1744293341" rel="stylesheet" media="print">
+    <link href="/css/ie.css?1744293341" rel="stylesheet">
+    <script src="/js/url.js?1744293341"></script>
+    <script src="/js/variant.js?1744293341"></script>
     <script>
-      window.relearn = window.relearn || {};
-      window.relearn.relBasePath='..\/..';
-      window.relearn.relBaseUri='..\/..';
-      window.relearn.absBaseUri='https:\/\/dezible.com';
-      window.relearn.min = `.min`;
-      window.relearn.disableAnchorCopy=false;
-      window.relearn.disableAnchorScrolling=false;
-      window.relearn.enableBlockCodeWrap=true;
-      window.relearn.disableInlineCopyToClipboard=true;
-      // variant stuff
-      window.relearn.themevariants = [ 'auto' ];
-      window.relearn.customvariantname = "my-custom-variant";
-      window.relearn.changeVariant = function(variant) {
-        var oldVariant = document.documentElement.dataset.rThemeVariant;
-        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
-        document.documentElement.dataset.rThemeVariant = variant;
-        if (oldVariant != variant) {
-          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
-        }
-      }
-      window.relearn.markVariant = function() {
-        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
-        var select = document.querySelector("#R-select-variant");
-        if (select) {
-          select.value = variant;
-        }
-      }
-      window.relearn.initVariant = function() {
-        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
-        if( variant == window.relearn.customvariantname ){
-        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
-          variant = window.relearn.themevariants[0];
-          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
-        }
-        document.documentElement.dataset.rThemeVariant = variant;
-      }
-      window.relearn.initVariant();
-      window.relearn.markVariant();
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
       // translations
-      window.T_Copy_to_clipboard = `Copy to clipboard`;
-      window.T_Copied_to_clipboard = `Copied to clipboard!`;
-      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
-      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
-      window.T_Reset_view = `Reset view`;
-      window.T_View_reset = `View reset!`;
-      window.T_No_results_found = `No results found for "{0}"`;
-      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='http:\/\/localhost:1313/';
+      window.variants && variants.init( [ 'auto' ] );
     </script>
 
 <style>
@@ -102,157 +47,128 @@ We are employing Machine Learning (ML) in more critical areas than ever. Hence i
 </style>
 
   </head>
-  <body class="mobile-support html" data-url="/basics/what-is-xai/">
-    <div id="R-body" class="default-animation">
-      <div id="R-body-overlay"></div>
-      <nav id="R-topbar">
-        <div class="topbar-wrapper">
-          <div class="topbar-sidebar-divider"></div>
-          <div class="topbar-area topbar-area-start" data-area="start">
-            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
-            </div>
-            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
-              <div class="topbar-content">
-                <div class="topbar-content-wrapper"> 
-                </div>
-              </div>
-            </div>
+  <body class="mobile-support html disableInlineCopyToClipboard" data-url="/basics/what-is-xai/">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div class="navigation">
+            <a class="nav nav-next topbar-link" href="/goal/" title="Who am I? (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
           </div>
-          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList">
-            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/"><span itemprop="name">Dezible</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li>
-            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/basics/"><span itemprop="name">eXplainable AI</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li>
-            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">What is XAI</span><meta itemprop="position" content="3"></li>
-          </ol>
-          <div class="topbar-area topbar-area-end" data-area="end">
-            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/basics/" title="eXplainable AI (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/goal/" title="Who am I? (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
-              <div class="topbar-content">
-                <div class="topbar-content-wrapper">
-                  <div class="topbar-area topbar-area-more" data-area="more">
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="navigation">
+            <a class="nav nav-prev topbar-link" href="/basics/" title="eXplainable AI (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+          </div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" class="topbar-link" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/"><span itemprop="name">Dezible</span></a><meta itemprop="position" content="1"> &gt; </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/basics/"><span itemprop="name">eXplainable AI</span></a><meta itemprop="position" content="2"> &gt; </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">What is XAI</span><meta itemprop="position" content="3"></li>
+            </ol>
           </div>
         </div>
       </nav>
-      <div id="R-main-overlay"></div>
-      <main id="R-body-inner" class="highlightable basics" tabindex="-1">
+      <main id="body-inner" class="highlightable default" tabindex="-1">
         <div class="flex-block-wrapper">
-<article class="default">
-  <header class="headline">
-  </header>
-
+          <article class="default">
+            <header class="headline">
+            </header>
 <h1 id="what-is-xai">What is XAI</h1>
 
 <p>The sophistication of AI-powered systems have increased exponentially in the last decade. And yet, you can (almost) design and deployment whole AI models without any human intervention.</p>
 <p>I came across the <a href="/">experiment I shared on home page</a> when I was reading an article titled:</p>
-<p><a href="https://hdsr.mitpress.mit.edu/pub/f9kuryi8/release/8" rel="external" target="_blank"><em>Why Are We Using Black Box Models in AI When We Don’t Need To? A Lesson From an Explainable AI Competition</em></a></p>
+<p><a href="https://hdsr.mitpress.mit.edu/pub/f9kuryi8/release/8" target="_blank"><em>Why Are We Using Black Box Models in AI When We Don’t Need To? A Lesson From an Explainable AI Competition</em></a></p>
 <p>We are employing Machine Learning (ML) in more critical areas than ever. Hence it is natural to demand transparency in the decision-making process inside such models.</p>
 <p>The article above argues that it makes more sense to shift our focus to <strong>creating and working on</strong> interpretable models rather than <strong>explaining</strong> black-box algorithms.</p>
 
-<details open class=" box cstyle notices accent">
-  <summary class="box-label a11y-only" tabindex="-1">
-    <span class="a11y-only">Details</span>
-  </summary>
+<div class="box notices cstyle accent">
+  <div class="box-label"></div>
   <div class="box-content">
-<p>More accurate models does not have to mean less interpretability/transparency.</p>
-  </div>
-</details>
-<p>While I fully agree with the above statement, the truth is, convoluted models based on Deep Learning (DL) or Neural Networks (NN) methods have seen more success in applications (as compared to simpler models) <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
-<p>And there is much work to be accomplished, before they enjoy more practical adoption.</p>
-<p>📌 <em>This section is in progress</em></p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p><em>citation required</em>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
 
-  <footer class="footline">
-  </footer>
-</article>
+<p>More accurate models does not have to mean less interpretability/transparency.</p>
+</div>
+</div>
+<p>While I fully agree with the above statement, convoluted models based on Deep Learning (DL) or Neural Networks (NN) methods have seen more success in applications which deal with higher dimensional data (think of images).</p>
+<p>This doesn&rsquo;t mean that such models are appropriate in all cases. This reminds me of the mathematical folklore of <a href="https://en.wikipedia.org/wiki/No_free_lunch_theorem" target="_blank">&lsquo;No free lunch&rsquo; (NFL) theorem</a>.</p>
+
+            <footer class="footline">
+
+            </footer>
+          </article>
         </div>
       </main>
     </div>
-    <aside id="R-sidebar" class="default-animation">
-      <div id="R-header-topbar" class="default-animation"></div>
-      <div id="R-header-wrapper" class="default-animation">
-        <div id="R-header" class="default-animation">
+    <aside id="sidebar" class="default-animation">
+      <div id="header-topbar" class="default-animation"></div>
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
 <a id="logo" href="/"><img src="https://raw.githubusercontent.com/psyklopp/Dezible-com/main/images/dezible_logo.png"></a>
         </div>
-        <script>
-          window.index_js_url="/searchindex.en.js?1740567546";
-        </script>
-        <search><form action="/search/" method="get">
-          <div class="searchbox default-animation">
-            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
-            <label class="a11y-only" for="R-search-by">Search</label>
-            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
-            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
-          </div>
-        </form></search>
+        <div class="searchbox default-animation">
+          <i class="fas fa-search" title="Search (CTRL+ALT+f)"></i>
+          <label class="a11y-only" for="search-by">Search</label>
+          <input data-search-input id="search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+          <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+        </div>
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/js/auto-complete.js?1740567546" defer></script>
-        <script src="/js/lunr/lunr.min.js?1740567546" defer></script>
-        <script src="/js/lunr/lunr.stemmer.support.min.js?1740567546" defer></script>
-        <script src="/js/lunr/lunr.multi.min.js?1740567546" defer></script>
-        <script src="/js/lunr/lunr.en.min.js?1740567546" defer></script>
-        <script src="/js/search.js?1740567546" defer></script>
+        <script src="/js/auto-complete.js?1744293341" defer></script>
+        <script src="/js/lunr/lunr.min.js?1744293341" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1744293341" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1744293341" defer></script>
+        <script src="/js/lunr/lunr.en.min.js?1744293341" defer></script>
+        <script src="/js/search.js?1744293341" defer></script>
       </div>
-      <div id="R-homelinks" class="default-animation">
+      <div id="homelinks" class="default-animation">
         <hr class="padding">
       </div>
-      <div id="R-content-wrapper" class="highlightable">
-        <div id="R-shortcutmenu-home" class="R-sidebarmenu">
+      <div id="content-wrapper" class="highlightable">
+        <div id="topics">
           <ul class="enlarge morespace collapsible-menu">
-            <li class="parent " data-nav-id="/basics/"><input type="checkbox" id="R-section-0b672522ed89c7ef2dda1a5f8d779fdb" aria-controls="R-subsections-0b672522ed89c7ef2dda1a5f8d779fdb" checked><label for="R-section-0b672522ed89c7ef2dda1a5f8d779fdb"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu eXplainable AI</span></label><a class="padding" href="/basics/"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">1.</b> eXplainable AI</a><ul id="R-subsections-0b672522ed89c7ef2dda1a5f8d779fdb" class="collapsible-menu">
-            <li class="active " data-nav-id="/basics/what-is-xai/"><a class="padding" href="/basics/what-is-xai/">What is XAI</a></li></ul></li>
-            <li class="" data-nav-id="/goal/"><a class="padding" href="/goal/">Motivation</a></li>
+          <li data-nav-id="/basics/" class="parent "><input type="checkbox" id="section-a986aa6dc6d87239cf3ec5f1bf5bb385" aria-controls="subsections-a986aa6dc6d87239cf3ec5f1bf5bb385" checked><label for="section-a986aa6dc6d87239cf3ec5f1bf5bb385"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu eXplainable AI</span></label><a class="padding" href="/basics/"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">1.</b> eXplainable AI</a><ul id="subsections-a986aa6dc6d87239cf3ec5f1bf5bb385" class="morespace collapsible-menu">
+          <li data-nav-id="/basics/what-is-xai/" class="active"><a class="padding" href="/basics/what-is-xai/">What is XAI</a></li></ul></li>
+          <li data-nav-id="/goal/" class=""><a class="padding" href="/goal/">Motivation</a></li>
           </ul>
         </div>
         <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
-        <div id="R-menu-footer">
+        <div id="menu-footer">
           <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
-          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+          <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
             <ul>
-              <li id="R-select-language-container" class="footerLangSwitch">
+              <li id="select-language-container" class="footerLangSwitch">
                 <div class="padding menu-control">
-                  <i class="fa-fw fas fa-language"></i>
+                  <i class="fas fa-language fa-fw"></i>
                   <span>&nbsp;</span>
                   <div class="control-style">
-                    <label class="a11y-only" for="R-select-language">Language</label>
-                    <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
-                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/basics/what-is-xai/" lang="en-us" selected></option>
+                    <label class="a11y-only" for="select-language">Language</label>
+                    <select id="select-language" onchange="location = baseUri + this.value;">
+                      <option lang="en" id="en" value="/basics/what-is-xai/" selected></option>
                     </select>
                   </div>
                   <div class="clear"></div>
                 </div>
               </li>
-              <li id="R-select-variant-container" class="footerVariantSwitch">
+              <li id="select-variant-container" class="footerVariantSwitch">
                 <div class="padding menu-control">
-                  <i class="fa-fw fas fa-paint-brush"></i>
+                  <i class="fas fa-paint-brush fa-fw"></i>
                   <span>&nbsp;</span>
                   <div class="control-style">
-                    <label class="a11y-only" for="R-select-variant">Theme</label>
-                    <select id="R-select-variant" onchange="window.relearn.changeVariant( this.value );">
-                      <option id="R-select-variant-auto" value="auto" selected>Auto</option>
+                    <label class="a11y-only" for="select-variant">Theme</label>
+                    <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="auto" value="auto" selected>Auto</option>
                     </select>
                   </div>
                   <div class="clear"></div>
                 </div>
-                <script>window.relearn.markVariant();</script>
+                <script>window.variants && variants.markSelectedVariant();</script>
               </li>
               <li class="footerVisitedLinks">
                 <div class="padding menu-control">
-                  <i class="fa-fw fas fa-history"></i>
+                  <i class="fas fa-history fa-fw"></i>
                   <span>&nbsp;</span>
                   <div class="control-style">
                     <button onclick="clearHistory();">Clear History</button>
@@ -262,15 +178,15 @@ We are employing Machine Learning (ML) in more critical areas than ever. Hence i
               </li>
             </ul>
           </div>
-          <div id="R-footer" class="footerFooter showFooter"><p style="text-align: center;">©2025 Dezible.com </p>
+          <div id="footer" class="footerFooter showFooter"><p style="text-align: center;">©2025 Dezible.com </p>
 <p style="font-size: 0.80rem; text-align: center;">Made with ❤️ with Hugo</p>
 
           </div>
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1740567546" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1740567546" defer></script>
-    <script src="/js/theme.js?1740567546" defer></script>
+    <script src="/js/clipboard.min.js?1744293341" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1744293341" defer></script>
+    <script src="/js/theme.js?1744293341" defer></script>
   </body>
 </html>

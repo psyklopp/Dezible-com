@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>eXplainable AI - Dezible</title>
-    <link>https://dezible.com/basics/</link>
-    <description>For this section, I will refer to an excellent article published in 2020. It has reviewed concepts related to explainability of AI methods, discussed some transparent models and built a taxonomy based on the reviewed literature.&#xA;✒️ You can read the whole paper here Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI https://doi.org/10.1016/j.inffus.2019.12.012.</description>
-    <generator>Hugo</generator>
+    <title>eXplainable AI on Dezible</title>
+    <link>http://localhost:1313/basics/</link>
+    <description>Recent content in eXplainable AI on Dezible</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Feb 2025 19:34:24 +0200</lastBuildDate>
-    <atom:link href="https://dezible.com/basics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Feb 2025 19:34:24 +0200</lastBuildDate><atom:link href="http://localhost:1313/basics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is XAI</title>
-      <link>https://dezible.com/basics/what-is-xai/</link>
+      <link>http://localhost:1313/basics/what-is-xai/</link>
       <pubDate>Tue, 25 Feb 2025 19:34:24 +0200</pubDate>
-      <guid>https://dezible.com/basics/what-is-xai/</guid>
-      <description>The sophistication of AI-powered systems have increased exponentially in the last decade. And yet, you can (almost) design and deployment whole AI models without any human intervention.&#xA;I came across the experiment I shared on home page when I was reading an article titled:&#xA;Why Are We Using Black Box Models in AI When We Don’t Need To? A Lesson From an Explainable AI Competition&#xA;We are employing Machine Learning (ML) in more critical areas than ever. Hence it is natural to demand transparency in the decision-making process inside such models.</description>
+      <guid>http://localhost:1313/basics/what-is-xai/</guid>
+      <description>&lt;p&gt;The sophistication of AI-powered systems have increased exponentially in the last decade. And yet, you can (almost) design and deployment whole AI models without any human intervention.&lt;/p&gt;
+&lt;p&gt;I came across the &lt;a href=&#34;http://localhost:1313/&#34;&gt;experiment I shared on home page&lt;/a&gt; when I was reading an article titled:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://hdsr.mitpress.mit.edu/pub/f9kuryi8/release/8&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Why Are We Using Black Box Models in AI When We Don’t Need To? A Lesson From an Explainable AI Competition&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are employing Machine Learning (ML) in more critical areas than ever. Hence it is natural to demand transparency in the decision-making process inside such models.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

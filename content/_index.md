@@ -42,4 +42,6 @@ And would people trust a robotic-hand? If the AI system could converse or maybe 
 #### :black_nib: currently...
 
 
-February 2025: Develop the first section - the `What`, `Why`, `What for` and `How` in XAI 
+February 2025: Develop the first section - the `What`, `Why`, `What for` and `How` in XAI
+
+April 2025: Finishing the `What`, an example would be nice
