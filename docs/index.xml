@@ -6,20 +6,20 @@
     <description>Recent content on Dezible</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Feb 2025 19:34:24 +0200</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Apr 2025 19:34:24 +0200</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>eXplainable AI</title>
       <link>http://localhost:1313/basics/</link>
-      <pubDate>Tue, 25 Feb 2025 19:34:24 +0200</pubDate>
+      <pubDate>Thu, 10 Apr 2025 19:34:24 +0200</pubDate>
       <guid>http://localhost:1313/basics/</guid>
-      <description>&lt;p&gt;For this section, I will refer to an excellent article published in 2020. It has reviewed concepts related to explainability of AI methods, discussed some transparent models and built a taxonomy based on the reviewed literature.&lt;/p&gt;
+      <description>&lt;p&gt;For this section, I will refer to an excellent article published in 2020 titled &lt;strong&gt;Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;It has reviewed concepts related to explainability of AI methods, discussed some transparent models and built a taxonomy based on the reviewed literature.&lt;/p&gt;
 
 &lt;div class=&#34;box notices cstyle default&#34; style=&#34;--VARIABLE-BOX-color: green;&#34;&gt;
   &lt;div class=&#34;box-label&#34;&gt;&amp;#x2712;&amp;#xfe0f; You can read the whole paper here&lt;/div&gt;
   &lt;div class=&#34;box-content&#34;&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S1566253519308103&#34; target=&#34;_blank&#34;&gt;Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI&lt;/a&gt;
-&lt;a href=&#34;https://doi.org/10.1016/j.inffus.2019.12.012&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1016/j.inffus.2019.12.012&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S1566253519308103&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1016/j.inffus.2019.12.012&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>
     </item>

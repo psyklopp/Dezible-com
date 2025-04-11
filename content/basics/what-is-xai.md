@@ -5,7 +5,18 @@ draft: false
 weight: 1
 ---
 
-The sophistication of AI-powered systems have increased exponentially in the last decade. And yet, you can (almost) design and deployment whole AI models without any human intervention.
+
+IBM[^1] has a nice definition:
+{{% notice style="accent" %}}
+Explainable artificial intelligence (XAI) is a set of processes and methods that allows human users to comprehend and trust the results and output created by machine learning algorithms.
+{{% /notice %}}
+
+
+[^1]: [What is Explainable AI?](https://www.ibm.com/think/topics/explainable-ai)
+
+But why do we need it?
+
+The sophistication of AI-powered systems have increased exponentially in the last decade. And yet, you can (almost) design and deploy whole AI models without any human intervention.
 
 I came across the [experiment I shared on home page](/) when I was reading an article titled:
 
@@ -19,6 +30,10 @@ The article above argues that it makes more sense to shift our focus to **creati
 More accurate models does not have to mean less interpretability/transparency.
 {{% /notice %}}
 
-While I fully agree with the above statement, convoluted models based on Deep Learning (DL) or Neural Networks (NN) methods have seen more success in applications which deal with higher dimensional data (think of images).
+I fully agree with the above statement but it is also true that convoluted models based on Deep Learning (DL) or Neural Networks (NN) methods have seen more success in applications which deal with higher dimensional data (think of images). 
 
-This doesn't mean that such models are appropriate in all cases. This reminds me of the mathematical folklore of ['No free lunch' (NFL) theorem](https://en.wikipedia.org/wiki/No_free_lunch_theorem).
+> A mathematical folklore by the name of ['No free lunch' (NFL) theorem](https://en.wikipedia.org/wiki/No_free_lunch_theorem) says (roughly), "*No one model works best for all possible situations.*"
+
+So while we work on developing inherently explainable models, we also focus on XAI for existing (complicated) models.
+
+ 
