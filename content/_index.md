@@ -13,7 +13,7 @@ What is a SIEM you might ask. The following is a nice definition[^1].
 Security Information and Event Management (SIEM) is an essential tool that collects, stores, and performs log management and analyzes extensive volumes of log data from across an organization's network, generating security alerts when needed.
 {{% /notice %}}
 
-Every SIEM does give fundamental things:
+Every SIEM does five fundamental things:
 
 - Data collection and Normalization
 - Storage and Indexing
@@ -21,7 +21,7 @@ Every SIEM does give fundamental things:
 - Response and Orchestration
 - Intelligence and Visualization
 
-With the above tools, security teams can assess, triage and respond to security events.
+With the above tools/capabilities, security teams can assess, triage and respond to security events.
 
 I do not want to re-invent the wheel, but rather have insights into the components that make up SIEM.
 
