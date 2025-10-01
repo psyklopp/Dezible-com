@@ -16,10 +16,11 @@ home = [ "html", "rss", "print"]
     disableToc = false
     collapsibleMenu = true
     titleSeparator = "-"
-    themeVariant = "dezible"
-    disableLandingPageButton = true
+    #themeVariant = "dezible"
+    disableLandingPageButton = false
     hideAuthorDate = true
-    disableBreadcrumb = false
+    disableRootBreadcrumb = true
+    # disableBreadcrumb = false
     disableExplicitIndexURLs = true
     disableInlineCopyToClipBoard=true
 

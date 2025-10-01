@@ -3,25 +3,25 @@
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.146.1">
+    <meta name="generator" content="Hugo 0.150.1">
     <meta name="generator" content="Relearn 5.20.0+tip">
     <meta name="description" content="">
     <title>Dezible</title>
     <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Dezible">
     <link href="/index.print.html" rel="alternate" type="text/html" title="Dezible"><link rel="icon" href="https://raw.githubusercontent.com/psyklopp/Dezible-com/main/images/dezible_favicon.png" type="image/png">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="/css/fontawesome-all.min.css?1744387809" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1744387809" rel="stylesheet"></noscript>
-    <link href="/css/nucleus.css?1744387809" rel="stylesheet">
-    <link href="/css/auto-complete.css?1744387809" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1744387809" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1744387809" rel="stylesheet">
-    <link href="/css/fonts.css?1744387809" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1744387809" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1744387809" rel="stylesheet">
-    <link href="/css/theme-dezible.css?1744387809" rel="stylesheet" id="variant-style">
-    <link href="/css/variant.css?1744387809" rel="stylesheet">
-    <link href="/css/print.css?1744387809" rel="stylesheet" media="print">
-    <link href="/css/ie.css?1744387809" rel="stylesheet">
-    <script src="/js/url.js?1744387809"></script>
-    <script src="/js/variant.js?1744387809"></script>
+    <link href="/css/fontawesome-all.min.css?1759319429" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1759319429" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1759319429" rel="stylesheet">
+    <link href="/css/auto-complete.css?1759319429" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1759319429" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1759319429" rel="stylesheet">
+    <link href="/css/fonts.css?1759319429" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1759319429" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1759319429" rel="stylesheet">
+    <link href="/css/theme-auto.css?1759319429" rel="stylesheet" id="variant-style">
+    <link href="/css/variant.css?1759319429" rel="stylesheet">
+    <link href="/css/print.css?1759319429" rel="stylesheet" media="print">
+    <link href="/css/ie.css?1759319429" rel="stylesheet">
+    <script src="/js/url.js?1759319429"></script>
+    <script src="/js/variant.js?1759319429"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -36,7 +36,7 @@
       window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
       // some further base stuff
       var baseUriFull='http:\/\/localhost:1313/';
-      window.variants && variants.init( [ 'dezible' ] );
+      window.variants && variants.init( [ 'auto' ] );
     </script>
 
 <style>
@@ -56,7 +56,7 @@
       <nav id="topbar" class="highlightable">
         <div>
           <div class="navigation">
-            <a class="nav nav-next topbar-link" href="/basics/" title="eXplainable AI (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+            <a class="nav nav-next topbar-link" href="/data-ingestion/" title="Data Ingestion (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
           </div>
           <div class="navigation">
             <span class="nav nav-prev topbar-link"><i class="fa fa-chevron-left fa-fw"></i></span>
@@ -70,22 +70,9 @@
             <span id="sidebar-toggle-span">
               <a href="#" id="sidebar-toggle" class="topbar-link" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
             </span>
-            <span id="toc-menu" title='Table of Contents (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
             <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
               <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Dezible</span><meta itemprop="position" content="1"></li>
             </ol>
-          </div>
-          <div class="default-animation progress">
-            <div class="toc-wrapper"><nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#experiment">Experiment</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-            </div>
           </div>
         </div>
       </nav>
@@ -96,53 +83,46 @@
             </header>
 <h1 id="dezible">Dezible</h1>
 
-<p>Welcome to Dezible.</p>
-<p>Read the interesting experiment below or check out the basics of XAI starting <a href="/basics/">here</a>.</p>
-<h3 id="experiment">Experiment</h3>
-<p>In 2018, hundreds of top computer scientists, financial engineers, and executives - were asked to engage in a thought experiment where they had cancer and needed surgery to remove a tumor.</p>
-<p>Two images were displayed on the screen.</p>
-
-<div class="expand">
-    <input type="checkbox" id="expand-cbcf29e1ffbd177a8be92d25c337a9eb" aria-controls="expandcontent-cbcf29e1ffbd177a8be92d25c337a9eb" >
-    <label class="expand-label" for="expand-cbcf29e1ffbd177a8be92d25c337a9eb" >
-        <i class="fas fa-chevron-down"></i>
-        <i class="fas fa-chevron-right"></i>
-        First image
-    </label>
-    <div id="expandcontent-cbcf29e1ffbd177a8be92d25c337a9eb" class="expand-content">
-
-<p>Human surgeon, who could explain anything about the surgery, but had a 15% chance of causing death during the surgery.</p>
-</div>
-</div>
-
-<div class="expand">
-    <input type="checkbox" id="expand-16cb85fc7f291823d4299c997aef979e" aria-controls="expandcontent-16cb85fc7f291823d4299c997aef979e" >
-    <label class="expand-label" for="expand-16cb85fc7f291823d4299c997aef979e" >
-        <i class="fas fa-chevron-down"></i>
-        <i class="fas fa-chevron-right"></i>
-        Second image
-    </label>
-    <div id="expandcontent-16cb85fc7f291823d4299c997aef979e" class="expand-content">
-
-<p>Robotic arm that could perform the surgery with only a 2% chance of failure.</p>
-</div>
-</div>
-<p>The audience was then asked to raise a hand to vote for which of the two they would prefer to perform life-saving surgery.</p>
-<p>All but one hand voted for the robot.</p>
+<p>Hello! My name is Aditya Bhardwaj.</p>
+<p>Dezible is a project where I build a <code>SIEM</code> from scratch.</p>
+<p>What is a SIEM you might ask. The following is a nice definition<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
 
 <div class="box notices cstyle accent">
   <div class="box-label"></div>
   <div class="box-content">
 
-<p>It is obvious that a 2% chance of mortality is better than a 15% chance of mortality.</p>
+<p>Security Information and Event Management (SIEM) is an essential tool that collects, stores, and performs log management and analyzes extensive volumes of log data from across an organization&rsquo;s network, generating security alerts when needed.</p>
 </div>
 </div>
-<p>Humans are too inhibited to adopt techniques which are not interpretable, traceable or trustworthy.</p>
-<p>So, why must the robot be a black box?</p>
-<p>And would people trust a robotic-hand? If the AI system could converse or maybe explain itself (better).</p>
-<h4 id="black_nib-currently">&#x2712;&#xfe0f; currently&hellip;</h4>
-<p>Develop the first sections - the <code>What</code>, <code>Why</code>, <code>What for</code> and <code>How</code> in XAI</p>
-<p>April 2025: Finishing the <code>What</code> + an example would be nice</p>
+<p>Every SIEM does give fundamental things:</p>
+<ul>
+<li>Data collection and Normalization</li>
+<li>Storage and Indexing</li>
+<li>Detection and Analysis</li>
+<li>Response and Orchestration</li>
+<li>Intelligence and Visualization</li>
+</ul>
+<p>With the above tools, security teams can assess, triage and respond to security events.</p>
+<p>I do not want to re-invent the wheel, but rather have insights into the components that make up SIEM.</p>
+<p>LLMs and AI agents will be useful in extending capabilities of such a SIEM, though the first goal is to work out the basics.</p>
+
+<div class="box notices cstyle default">
+  <div class="box-label"></div>
+  <div class="box-content">
+
+<p>Dezible is work in progress.</p>
+</div>
+</div>
+<h4 id="found-it-interesting">Found it interesting?</h4>
+<p>Connect with me here: <a href="https://www.linkedin.com/in/ab4dev/" target="_blank">LinkedIn</a> and <a href="https://scholar.google.com/citations?user=GnGK9eIAAAAJ&amp;hl=en" target="_blank">Google scholar</a></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://www.sekoia.io/en/glossary/what-is-a-security-information-event-and-management/" target="_blank">https://www.sekoia.io/en/glossary/what-is-a-security-information-event-and-management/</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 
             <footer class="footline">
 
@@ -166,23 +146,24 @@
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/js/auto-complete.js?1744387809" defer></script>
-        <script src="/js/lunr/lunr.min.js?1744387809" defer></script>
-        <script src="/js/lunr/lunr.stemmer.support.min.js?1744387809" defer></script>
-        <script src="/js/lunr/lunr.multi.min.js?1744387809" defer></script>
-        <script src="/js/lunr/lunr.en.min.js?1744387809" defer></script>
-        <script src="/js/search.js?1744387809" defer></script>
+        <script src="/js/auto-complete.js?1759319429" defer></script>
+        <script src="/js/lunr/lunr.min.js?1759319429" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1759319429" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1759319429" defer></script>
+        <script src="/js/lunr/lunr.en.min.js?1759319429" defer></script>
+        <script src="/js/search.js?1759319429" defer></script>
       </div>
-      <div id="homelinks" class="default-animation">
+      <div id="homelinks" class="default-animation homelinks">
+        <ul>
+          <li><a class="padding" href="/"><i class="fas fa-home"></i> Home</a></li>
+        </ul>
         <hr class="padding">
       </div>
       <div id="content-wrapper" class="highlightable">
         <div id="topics">
           <ul class="enlarge morespace collapsible-menu">
-          <li data-nav-id="/basics/" class=""><input type="checkbox" id="section-a986aa6dc6d87239cf3ec5f1bf5bb385" aria-controls="subsections-a986aa6dc6d87239cf3ec5f1bf5bb385"><label for="section-a986aa6dc6d87239cf3ec5f1bf5bb385"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu eXplainable AI</span></label><a class="padding" href="/basics/"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">1.</b> eXplainable AI</a><ul id="subsections-a986aa6dc6d87239cf3ec5f1bf5bb385" class="morespace collapsible-menu">
-          <li data-nav-id="/basics/what-is-xai/" class=""><a class="padding" href="/basics/what-is-xai/">What is XAI</a></li>
-          <li data-nav-id="/basics/xai-example/" class=""><a class="padding" href="/basics/xai-example/">Example of XAI</a></li></ul></li>
-          <li data-nav-id="/goal/" class=""><a class="padding" href="/goal/">Motivation</a></li>
+          <li data-nav-id="/data-ingestion/" class=""><a class="padding" href="/data-ingestion/"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">1.</b> Data Ingestion</a></li>
+          <li data-nav-id="/motivation/" class=""><a class="padding" href="/motivation/">Motivation</a></li>
           </ul>
         </div>
         <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
@@ -210,7 +191,7 @@
                   <div class="control-style">
                     <label class="a11y-only" for="select-variant">Theme</label>
                     <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
-                      <option id="dezible" value="dezible" selected>Dezible</option>
+                      <option id="auto" value="auto" selected>Auto</option>
                     </select>
                   </div>
                   <div class="clear"></div>
@@ -236,8 +217,8 @@
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1744387809" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1744387809" defer></script>
-    <script src="/js/theme.js?1744387809" defer></script>
+    <script src="/js/clipboard.min.js?1759319429" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1759319429" defer></script>
+    <script src="/js/theme.js?1759319429" defer></script>
   </body>
 </html>

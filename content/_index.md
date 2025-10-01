@@ -3,45 +3,36 @@ archetype = "home"
 title = "Dezible"
 +++
 
-Welcome to Dezible.
+Hello! My name is Aditya Bhardwaj.
 
-Read the interesting experiment below or check out the basics of XAI starting [here](/basics/).
+Dezible is a project where I build a ```SIEM``` from scratch.
 
-### Experiment
-
-In 2018, hundreds of top computer scientists, financial engineers, and executives - were asked to engage in a thought experiment where they had cancer and needed surgery to remove a tumor.
-
-Two images were displayed on the screen. 
-
-{{% expand title="First image" %}}
-
-Human surgeon, who could explain anything about the surgery, but had a 15% chance of causing death during the surgery. 
-
-{{% /expand %}}
-
-{{% expand title="Second image" %}}
-
-Robotic arm that could perform the surgery with only a 2% chance of failure. 
-
-{{% /expand %}}
-
-The audience was then asked to raise a hand to vote for which of the two they would prefer to perform life-saving surgery. 
-
-All but one hand voted for the robot.
+What is a SIEM you might ask. The following is a nice definition[^1].
 
 {{% notice style="accent" %}}
-It is obvious that a 2% chance of mortality is better than a 15% chance of mortality.
+Security Information and Event Management (SIEM) is an essential tool that collects, stores, and performs log management and analyzes extensive volumes of log data from across an organization's network, generating security alerts when needed.
 {{% /notice %}}
 
-Humans are too inhibited to adopt techniques which are not interpretable, traceable or trustworthy.
+Every SIEM does give fundamental things:
 
-So, why must the robot be a black box?
+- Data collection and Normalization
+- Storage and Indexing
+- Detection and Analysis
+- Response and Orchestration
+- Intelligence and Visualization
 
-And would people trust a robotic-hand? If the AI system could converse or maybe explain itself (better).
+With the above tools, security teams can assess, triage and respond to security events.
 
-#### :black_nib: currently...
+I do not want to re-invent the wheel, but rather have insights into the components that make up SIEM.
 
+LLMs and AI agents will be useful in extending capabilities of such a SIEM, though the first goal is to work out the basics.
 
-Develop the first sections - the `What`, `Why`, `What for` and `How` in XAI
+{{% notice style="default" %}}
+Dezible is work in progress.
+{{% /notice %}}
 
-April 2025: Finishing the `What` + an example would be nice
+[^1]: https://www.sekoia.io/en/glossary/what-is-a-security-information-event-and-management/
+
+#### Found it interesting?
+
+Connect with me here: [LinkedIn](https://www.linkedin.com/in/ab4dev/) and [Google scholar](https://scholar.google.com/citations?user=GnGK9eIAAAAJ&hl=en)
