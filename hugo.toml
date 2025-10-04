@@ -1,6 +1,7 @@
 baseURL = 'https://dezible.com/'
 languageCode = 'en-us'
 title = 'Dezible'
+publishDir = "docs"
 
 # Change the default theme to be use when building the site with Hugo
 theme = 'hugo-theme-relearn'
