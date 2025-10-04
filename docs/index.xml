@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dezible</title>
+    <link>https://dezible.com/</link>
+    <description>Hello! My name is Aditya Bhardwaj.&#xA;Dezible is a project where I build a SIEM from scratch.&#xA;What is a SIEM you might ask. The following is a nice definition1.&#xA;Details Security Information and Event Management (SIEM) is an essential tool that collects, stores, and performs log management and analyzes extensive volumes of log data from across an organization’s network, generating security alerts when needed.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://dezible.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Ingestion</title>
+      <link>https://dezible.com/data-ingestion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dezible.com/data-ingestion/</guid>
+      <description>Logs provide a detailed, chronological record of events which is necessary to investigate security incidents.&#xA;Without data flowing in, there is nothing to look at!&#xA;PCAP Understanding and analyzing packet-level evidence in pcap files.&#xA;Details Work in progress.</description>
+    </item>
+    <item>
+      <title>Motivation</title>
+      <link>https://dezible.com/motivation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dezible.com/motivation/</guid>
+      <description>My name is Aditya Bhardwaj and am currently a PhD candidate at University of Twente - you can find me here through LinkedIn profile&#xA;As the area of AI progresses, a number of people are sharing tutorials (about agents, LLMs and whatnot). Often times, these are singular projects which end up with others in project graveyard.&#xA;I want to change that.&#xA;My aim is to stick to some projects and build them incrementally. This way, I get to learn and apply new concepts.</description>
+    </item>
+  </channel>
+</rss>

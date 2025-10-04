@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Motivation - Dezible</title>
+    <link>https://dezible.com/motivation/</link>
+    <description>My name is Aditya Bhardwaj and am currently a PhD candidate at University of Twente - you can find me here through LinkedIn profile&#xA;As the area of AI progresses, a number of people are sharing tutorials (about agents, LLMs and whatnot). Often times, these are singular projects which end up with others in project graveyard.&#xA;I want to change that.&#xA;My aim is to stick to some projects and build them incrementally. This way, I get to learn and apply new concepts.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://dezible.com/motivation/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
