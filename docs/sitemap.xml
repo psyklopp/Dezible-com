@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dezible.com/data-ingestion/</loc>
+    <loc>http://localhost:1313/data-ingestion/</loc>
   </url>
   <url>
-    <loc>https://dezible.com/data-ingestion/pcap/</loc>
+    <loc>http://localhost:1313/data-ingestion/pcap/</loc>
   </url>
   <url>
-    <loc>https://dezible.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
   <url>
-    <loc>https://dezible.com/</loc>
+    <loc>http://localhost:1313/</loc>
   </url>
   <url>
-    <loc>https://dezible.com/motivation/</loc>
+    <loc>http://localhost:1313/motivation/</loc>
   </url>
   <url>
-    <loc>https://dezible.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
