@@ -4,6 +4,9 @@
     <loc>http://localhost:1313/data-ingestion/</loc>
   </url>
   <url>
+    <loc>http://localhost:1313/data-ingestion/pcap/</loc>
+  </url>
+  <url>
     <loc>http://localhost:1313/categories/</loc>
   </url>
   <url>

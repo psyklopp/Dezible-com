@@ -9,7 +9,9 @@ enableEmoji = true
 
 # For search functionality
 [outputs]
-home = [ "html", "rss", "print"]
+  home = ['html', 'rss', 'print']
+  page = ['html', 'print']
+  section = ['html', 'rss', 'print']
 
 [params]
     alwaysopen = false
@@ -17,7 +19,8 @@ home = [ "html", "rss", "print"]
     collapsibleMenu = true
     titleSeparator = "-"
     #themeVariant = "dezible"
-    disableLandingPageButton = false
+    themeVariant = 'relearn-dark'
+    disableLandingPageButton = true
     hideAuthorDate = true
     disableRootBreadcrumb = true
     # disableBreadcrumb = false
@@ -78,9 +81,9 @@ home = [ "html", "rss", "print"]
         title = true
     [markup.goldmark.renderHooks]
       [markup.goldmark.renderHooks.image]
-        enableDefault = false
+        useEmbedded = "never"
       [markup.goldmark.renderHooks.link]
-        enableDefault = false
+        useEmbedded = "never"
     [markup.goldmark.renderer]
       hardWraps = false
       unsafe = false
