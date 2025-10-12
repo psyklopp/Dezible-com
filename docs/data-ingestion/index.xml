@@ -3,7 +3,7 @@
   <channel>
     <title>Data Ingestion - Dezible</title>
     <link>http://localhost:1313/data-ingestion/</link>
-    <description>Logs provide a detailed, chronological record of events which is necessary to investigate security incidents.&#xA;Without data flowing in, there is nothing to look at!&#xA;PCAP Understanding and analyzing packet-level evidence in pcap files.&#xA;Details Work in progress.</description>
+    <description>Logs provide a detailed, chronological record of events which is necessary to investigate security incidents.&#xA;Without data flowing in, there is nothing to look at!&#xA;Security analysts make use of data from different sources - network traffic logs, host-based data (think of system logs) as well as threat intelligence to triage such security incidents.&#xA;PCAP Understanding and analyzing packet-level evidence in pcap files.&#xA;Details Work in progress.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/data-ingestion/index.xml" rel="self" type="application/rss+xml" />
@@ -12,7 +12,7 @@
       <link>http://localhost:1313/data-ingestion/pcap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/data-ingestion/pcap/</guid>
-      <description>Packet Capture or PCAP files record the raw data packets. You can use tools like Wireshark and tcpdump to intercept data from a network interface, which are then stored as pcap files.&#xA;With the network activity stored in these files, we can investigate and anaylze traffic at the packet level.&#xA;Sample PCAP files We can generate our own traffic, but there are free, publicly available pcap files like here: Netresec 1&#xA;Details Work in progress.</description>
+      <description>If you’re getting into cybersecurity or incident response, you’ll inevitably hear: “Check the packet capture.” But what does that actually mean?&#xA;Packet Capture or PCAP files record the raw data packets.&#xA;With the network activity stored in these files, we can investigate and anaylze traffic at the packet level. This helps in troubleshooting network issues besides investigating suspicious behaviour.&#xA;What is a PCAP file? Packet Capture or simply PCAP is basically a recording of everything that happened on a network. Think of it like a black box recorder for network traffic.</description>
     </item>
   </channel>
 </rss>
