@@ -78,7 +78,7 @@ curl http://google.com
 ping -c 5 google.com
 ```
 
-After 30 seconds or so, stop tcpdump with `Ctrl+C`. And just like this, we captured our first PCAP!
+After 30 seconds or so, stop tcpdump with `Ctrl+C`. And just like this, we captured our first PCAP. Nice.
 
 **Tip** We can make use of filters to avoid capturing everything:
 ```bash
@@ -89,9 +89,63 @@ sudo tcpdump -i enp0s3 -w http_only.pcap 'port 80'
 sudo tcpdump -i enp0s3 -w target.pcap 'host 8.8.8.8'
 ```
 
-{{% notice style="default" %}}
-Work in progress. Will continue generating and analyzing more PCAP data!
-{{% /notice %}}
+## Analyse PCAP with Python and Scapy
+
+The packet has various fields. And some of the interesting ones are:
+
+- Source/Destination IP - Who's talking to whom?
+- Source/Destination Port - What service? (80=HTTP, 443=HTTPS, 22=SSH)
+- Protocol - TCP, UDP, ICMP?
+- Flags (for TCP) - SYN, ACK, FIN - these tell us about connection state
+- Payload - The actual data being transmitted
+
+### Reading a PCAP file
+
+```python
+from scapy.all import *
+
+# Load the PCAP
+packets = rdpcap('my_capture.pcap')
+
+print(f"Total packets: {len(packets)}")
+
+# Look at the first packet
+
+# first_packet = packets[0]
+# first_packet.show()
+
+# Look at the packet's flag
+# And it is a good idea to check if there is a 'TCP' or any layer
+
+# first_packet_flag = first_packet[TCP].flags
+# print(f"This is the flag : {first_packet_flag}")
+
+```
+
+### Example - Get IP addresses and HTTP requests
+
+```python
+# Get all IPs
+
+ip_addresses = set()
+for packet in packets:
+    if packet.haslayer(IP):
+        # add source and destination to the set --> ensures no duplicates
+        ip_addresses.add(packet[IP].src)
+        ip_addresses.add(packet[IP].dst)
+
+print("IP addresses involved: ", ip_addresses) # {'34.107.221.82', '142.250.179.206', '10.0.2.15'}
+
+
+# Finding HTTP requests
+
+for packet in packets:
+    if packet.haslayer(TCP) and packet.haslayer(Raw):
+        payload = packet[Raw].load
+        # HTTP requests start with methods like GET, POST
+        if payload.startswith(b'GET') or payload.startswith(b'POST'):
+            print(payload.decode('utf-8', errors='ignore'))
+```
 
 ## Dataset
 
@@ -99,3 +153,6 @@ Tools like Wireshark and tcpdump allow us to intercept data from a network inter
 
 [^1]: https://www.netresec.com/?page=PcapFiles
 
+{{% notice style="default" %}}
+Work in progress. Last updated on 18 Oct, 2025. Updated: weekly
+{{% /notice %}}
