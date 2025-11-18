@@ -12,10 +12,14 @@ draft = false
 
 ## [Installation](getting-started/installation/)
 
-First step is to install and get a feel of `msticpy` library. 
+First step is to install and get a feel of `msticpy` library.
 
 {{% notice style="default" %}}
 Work in progress.
 {{% /notice %}}
 
 ## Overview
+
+{{% notice style="default" %}}
+Work in progress. Linking will be done when the section is ready.
+{{% /notice %}}
