@@ -14,6 +14,7 @@ I aim to extend it and use with other open-source software (OSS) and data source
 
 ## [Installation](getting-started/installation/)
 
+First step is to install and get a feel of `msticpy` library.
 
 {{% notice style="default" %}}
 Work in progress.

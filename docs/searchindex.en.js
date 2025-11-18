@@ -1,8 +1,8 @@
 var relearn_searchindex = [
   {
     "breadcrumb": "",
-    "content": "msticpy is a set of Python tools intended to be used for security investigations and hunting.\nI aim to extend it and use with other open-source software (OSS) and data sources.\nInstallation Details Work in progress.",
-    "description": "msticpy is a set of Python tools intended to be used for security investigations and hunting.\nI aim to extend it and use with other open-source software (OSS) and data sources.\nInstallation Details Work in progress.",
+    "content": "msticpy is a set of Python tools intended to be used for security investigations and hunting.\nI aim to extend it and use with other open-source software (OSS) and data sources.\nInstallation First step is to install and get a feel of msticpy library.\nDetails Work in progress.",
+    "description": "msticpy is a set of Python tools intended to be used for security investigations and hunting.\nI aim to extend it and use with other open-source software (OSS) and data sources.\nInstallation First step is to install and get a feel of msticpy library.\nDetails Work in progress.",
     "tags": [],
     "title": "Getting started",
     "uri": "/getting-started/"
