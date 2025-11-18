@@ -12,7 +12,7 @@
       <link>http://localhost:1313/getting-started/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/getting-started/</guid>
-      <description>msticpy is a set of Python tools intended to be used for security investigations and hunting.&#xA;I aim to extend it and use with other open-source software (OSS) and data sources.&#xA;Installation First step is to install and get a feel of msticpy library.&#xA;Details Work in progress.</description>
+      <description>msticpy is a set of Python tools intended to be used for security investigations and hunting. I aim to extend it and use with other open-source software (OSS) and data sources.&#xA;Installation First step is to install and get a feel of msticpy library.&#xA;Details Work in progress.&#xA;Overview</description>
     </item>
     <item>
       <title>Motivation</title>
