@@ -33,6 +33,16 @@ Dezible is work in progress.
 
 [^1]: https://www.sekoia.io/en/glossary/what-is-a-security-information-event-and-management/
 
-#### Found it interesting?
+#### From scratch?
+
+Actually.. not from scratch.
+
+The 5 fundamental components of any SIEM would remain the same (as listed above), but I will use [MSTICPy](https://msticpy.readthedocs.io/en/latest/index.html) as the starting point.
+
+MSTIC or Microsoft Threat Intelligence Center, created this library to query log data, enrich and then anlayze the same. By using a Jupyter notebook, users can re-use functionalities in security investigation and hunting.
+
+Hence, I will shamelessly copy the documentation structure of `MSTICPy`, follow and improve upon the same.
+
+---
 
 Connect with me here: [LinkedIn](https://www.linkedin.com/in/ab4dev/) and [Google scholar](https://scholar.google.com/citations?user=GnGK9eIAAAAJ&hl=en)

@@ -3,7 +3,7 @@
   <channel>
     <title>Motivation - Dezible</title>
     <link>http://localhost:1313/motivation/</link>
-    <description>My name is Aditya Bhardwaj and am currently a PhD candidate at University of Twente - you can find me here through LinkedIn profile&#xA;As the area of AI progresses, a number of people are sharing tutorials (about agents, LLMs and whatnot). Often times, these are singular projects which end up with others in project graveyard.&#xA;I want to change that.&#xA;My aim is to stick to some projects and build them incrementally. This way, I get to learn and apply new concepts.</description>
+    <description>This question was asked on Reddit:&#xA;Details As a SOC analyst, how do you effectively correlate data from multiple sources? It seems like too much manual work.&#xA;The person goes on and explains the challenge with an example scenario of malware infection where one has to gather data such as: details about the endpoint, roles/permission of the user, Indicators of Compromise (IoCs) among other things.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/motivation/index.xml" rel="self" type="application/rss+xml" />

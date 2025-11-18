@@ -5,18 +5,31 @@
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.152.2">
     <meta name="generator" content="Relearn 8.0.1">
-    <meta name="description" content="">
+    <meta name="description" content="msticpy is a set of Python tools intended to be used for security investigations and hunting.
+I aim to extend it and use with other open-source software (OSS) and data sources.
+Installation Details Work in progress.">
     <meta name="author" content="">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Categories - Dezible">
-    <meta property="og:url" content="http://localhost:1313/categories/">
+    <meta name="twitter:title" content="Getting started - Dezible">
+    <meta name="twitter:description" content="msticpy is a set of Python tools intended to be used for security investigations and hunting.
+I aim to extend it and use with other open-source software (OSS) and data sources.
+Installation Details Work in progress.">
+    <meta property="og:url" content="http://localhost:1313/getting-started/">
     <meta property="og:site_name" content="Dezible">
-    <meta property="og:title" content="Categories - Dezible">
+    <meta property="og:title" content="Getting started - Dezible">
+    <meta property="og:description" content="msticpy is a set of Python tools intended to be used for security investigations and hunting.
+I aim to extend it and use with other open-source software (OSS) and data sources.
+Installation Details Work in progress.">
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="website">
-    <meta itemprop="name" content="Categories - Dezible">
-    <title>Categories - Dezible</title>
-    <link href="/categories/index.xml" rel="alternate" type="application/rss+xml" title="Categories - Dezible"><link rel="icon" href="https://raw.githubusercontent.com/psyklopp/Dezible-com/main/images/dezible_favicon.png" type="image/png">
+    <meta itemprop="name" content="Getting started - Dezible">
+    <meta itemprop="description" content="msticpy is a set of Python tools intended to be used for security investigations and hunting.
+I aim to extend it and use with other open-source software (OSS) and data sources.
+Installation Details Work in progress.">
+    <meta itemprop="wordCount" content="36">
+    <title>Getting started - Dezible</title>
+    <link href="/getting-started/index.xml" rel="alternate" type="application/rss+xml" title="Getting started - Dezible">
+    <link href="/getting-started/index.print.html" rel="alternate" type="text/html" title="Getting started - Dezible"><link rel="icon" href="https://raw.githubusercontent.com/psyklopp/Dezible-com/main/images/dezible_favicon.png" type="image/png">
     <link href="/css/auto-complete/auto-complete.min.css?1763482984" rel="stylesheet">
     <script src="/js/auto-complete/auto-complete.min.js?1763482984" defer></script>
     <script src="/js/search-lunr.js?1763482984" defer></script>
@@ -41,7 +54,7 @@
       window.relearn = window.relearn || {};
       // configuration
       window.relearn.min = ``;
-      window.relearn.path='\/categories\/';
+      window.relearn.path='\/getting-started\/';
       window.relearn.relBasePath='..';
       window.relearn.relBaseUri='..';
       window.relearn.absBaseUri='http:\/\/localhost:1313';
@@ -91,7 +104,7 @@
       window.relearn.markVariant();
     </script>
   </head>
-  <body class="mobile-support html" data-url="/categories/">
+  <body class="mobile-support html" data-url="/getting-started/">
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
       <nav id="R-topbar">
@@ -102,17 +115,24 @@
             </div>
             <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
               <div class="topbar-content">
-                <div class="topbar-content-wrapper"> 
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#installation">Installation</a></li>
+  </ul>
+</nav>
                 </div>
               </div>
             </div>
           </div>
-          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/"><span itemprop="name">Dezible</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Categories</span><meta itemprop="position" content="2"></li>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/"><span itemprop="name">Dezible</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Getting started</span><meta itemprop="position" content="2"></li>
           </ol>
           <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/getting-started/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
             <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/" title="Dezible (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
             </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><span class="topbar-control"><i class="fa-fw fas fa-chevron-right"></i></span>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/getting-started/installation/" title="Installation (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
             </div>
             <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
               <div class="topbar-content">
@@ -126,13 +146,26 @@
         </div>
       </nav>
       <div id="R-main-overlay"></div>
-      <main id="R-body-inner" class="highlightable categories" tabindex="-1">
+      <main id="R-body-inner" class="highlightable getting-started" tabindex="-1">
         <div class="flex-block-wrapper">
-<article>
+<article class="default">
   <header class="headline">
   </header>
-<h1 id="categories">Categories</h1>
 
+<h1 id="getting-started">Getting started</h1>
+
+<p><a href="https://msticpy.readthedocs.io/en/latest/getting_started/Introduction.html" rel="external" target="_blank">msticpy</a> is a set of Python tools intended to be used for security investigations and hunting.</p>
+<p>I aim to extend it and use with other open-source software (OSS) and data sources.</p>
+<h2 id="installation"><a href="/getting-started/installation/">Installation</a></h2>
+
+<details open class=" box cstyle notices default">
+  <summary class="box-label a11y-only" tabindex="-1">
+    <span class="a11y-only">Details</span>
+  </summary>
+  <div class="box-content">
+<p>Work in progress.</p>
+  </div>
+</details>
 
   <footer class="footline">
   </footer>
@@ -177,7 +210,7 @@
       <div id="R-content-wrapper" class="highlightable">
         <div class="R-sidebarmenu R-shortcutmenu-main">
           <ul class="enlarge morespace collapsible-menu">
-            <li class="" data-nav-id="/getting-started/"><input type="checkbox" id="R-section-87c0363912f379e0725cbe1d504c985c" aria-controls="R-subsections-87c0363912f379e0725cbe1d504c985c"><label for="R-section-87c0363912f379e0725cbe1d504c985c"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Getting started</span></label><a class="padding" href="/getting-started/"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">1.</b> Getting started</a><ul id="R-subsections-87c0363912f379e0725cbe1d504c985c" class="collapsible-menu">
+            <li class="active parent " data-nav-id="/getting-started/"><input type="checkbox" id="R-section-87c0363912f379e0725cbe1d504c985c" aria-controls="R-subsections-87c0363912f379e0725cbe1d504c985c" checked><label for="R-section-87c0363912f379e0725cbe1d504c985c"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Getting started</span></label><a class="padding" href="/getting-started/"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">1.</b> Getting started</a><ul id="R-subsections-87c0363912f379e0725cbe1d504c985c" class="collapsible-menu">
             <li class="" data-nav-id="/getting-started/installation/"><a class="padding" href="/getting-started/installation/">Installation</a></li></ul></li>
             <li class="" data-nav-id="/motivation/"><a class="padding" href="/motivation/">Motivation</a></li>
           </ul>
