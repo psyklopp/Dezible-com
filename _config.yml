@@ -26,8 +26,8 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://dezible.com/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  psyklopp
-repository: psyklopp/psyklopp.github.io
-github.repository_url: https://github.com/psyklopp
+#repository: psyklopp/psyklopp.github.io
+# github.repository_url: https://github.com/psyklopp
 
 # Build settings
 theme: jekyll-theme-hacker
